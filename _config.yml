@@ -1,3 +1,4 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
+no_post_dirs: true
