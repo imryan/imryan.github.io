@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Hello"
+date:   2013-08-08 11:58 AM
+categories: jekyll update
+---
+
+Hello world, this is the home of my new blog. I am somewhat sad to leave tumblr, but I am also very excited to begin using Jekyll, as well as hosting my blog here on GitHub. I was planning on leaving tumblr eventually for a new, free blogging platform anyway, because I feel as if tumblr doesn't give me that classic blog feel. I wanted a blog where I could link my posts to actual URLs, remove the 'Follow on tumblr' button, remove the dashboard, and not have notes on my posts. I've always wanted my own classic blog, one where it was plain and simple. It feels awesome having a small space on the Internet to call yours, it really does. FOr history-sake, attached below is a screenshot of my old blog I designed myself in nothing but HTML, CSS, and JavaScript. I created it on Christmas Eve, and the last time it was active was around March when I transferred to tumblr.
+
+![](http://i.imgur.com/FrHsTAE.png)
+
+I hope I will be able to attract more readers to my new blog, as I will be updating it more often. Have a great day everyone!
