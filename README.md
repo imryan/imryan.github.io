@@ -1,4 +1,3 @@
-imryan.github.io
-================
-
-My blog.
+imryan.net
+---
+The home of my blog.
