@@ -1,3 +1,4 @@
 name: Your New Jekyll Site
 markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title
 pygments: true
