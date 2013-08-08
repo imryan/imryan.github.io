@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Spring"
+date:   2013-04-14
+categories: random
+---
+
+Hello world, it’s finally spring. This time of the year usually makes me happier, due to the weather becoming warmer and being in the fresh air more often is always good. I rarely post on here because my life is usually not that interesting. But I’ve been keeping myself busy with a game I’ve been working on, that I’ve recently refactored and restarted development on it. I’m looking forward to working on it, and becoming more familiar with the Parse API, in which I’m using as my SQL alternative. Oh, and a software company called SellerCloud just opened up in an office next to my apartment complex, so I’ll definitely be stopping by there sometime this week. If it’s interesting over there, I might even see about an internship for awhile. This must be a sign, because neat things like this never seem to happen to me often. I’ll post an update soon on how everything’s going. Have a good night everyone!
