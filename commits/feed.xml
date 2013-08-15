@@ -1,0 +1,1154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/imryan</id>
+  <link type="text/html" rel="alternate" href="https://github.com/imryan"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/imryan.atom"/>
+  <title>imryan&#39;s Activity</title>
+  <updated>2013-08-15T21:06:52Z</updated>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1805813270</id>
+    <published>2013-08-15T21:06:52Z</published>
+    <updated>2013-08-15T21:06:52Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/a04146326f...b7bfd5fdf0"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-15T21:06:52Z&quot; title=&quot;2013-08-15 21:06:52&quot;&gt;August 15, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/b7bfd5fdf072002e6d3287428b54eca184704f1c&quot;&gt;b7bfd5f&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Updated versioning
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1805809307</id>
+    <published>2013-08-15T21:03:01Z</published>
+    <updated>2013-08-15T21:03:01Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/Rohansi/Californium"/>
+    <title type="html">imryan starred Rohansi/Californium</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;starred&lt;/span&gt; &lt;a href=&quot;/Rohansi/Californium&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;Rohansi/Californium&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-15T21:03:01Z&quot; title=&quot;2013-08-15 21:03:01&quot;&gt;August 15, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804874248</id>
+    <published>2013-08-14T21:18:24Z</published>
+    <updated>2013-08-14T21:18:24Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/cb97c2c780...a04146326f"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T21:18:24Z&quot; title=&quot;2013-08-14 21:18:24&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/a04146326f07226be6e578676705c4190432081f&quot;&gt;a041463&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Started fixing emboldening bug
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1804828679</id>
+    <published>2013-08-14T20:31:59Z</published>
+    <updated>2013-08-14T20:31:59Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/ionutvmi/master-login-system"/>
+    <title type="html">imryan starred ionutvmi/master-login-system</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;starred&lt;/span&gt; &lt;a href=&quot;/ionutvmi/master-login-system&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;ionutvmi/master-login-system&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T20:31:59Z&quot; title=&quot;2013-08-14 20:31:59&quot;&gt;August 14, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1804827395</id>
+    <published>2013-08-14T20:30:40Z</published>
+    <updated>2013-08-14T20:30:40Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/VerbalExpressions/ObjectiveCVerbalExpressions"/>
+    <title type="html">imryan starred VerbalExpressions/ObjectiveCVerbalExpressions</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;starred&lt;/span&gt; &lt;a href=&quot;/VerbalExpressions/ObjectiveCVerbalExpressions&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;VerbalExpressions/ObjectiveCVerbalExpressions&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T20:30:40Z&quot; title=&quot;2013-08-14 20:30:40&quot;&gt;August 14, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1804783478</id>
+    <published>2013-08-14T19:44:54Z</published>
+    <updated>2013-08-14T19:44:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/issues/9"/>
+    <title type="html">imryan opened issue imryan/booker#9</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T19:44:54Z&quot; title=&quot;2013-08-14 19:44:54&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;opened&lt;/span&gt; issue &lt;a href=&quot;https://github.com/imryan/booker/issues/9&quot; title=&quot;All rows in the list view are emboldened&quot;&gt;imryan/booker#9&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      All rows in the list view are emboldened
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1804741480</id>
+    <published>2013-08-14T19:00:26Z</published>
+    <updated>2013-08-14T19:00:26Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/issues/8"/>
+    <title type="html">imryan opened issue imryan/booker#8</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T19:00:26Z&quot; title=&quot;2013-08-14 19:00:26&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;opened&lt;/span&gt; issue &lt;a href=&quot;https://github.com/imryan/booker/issues/8&quot; title=&quot;Erase login.txt before publishing build(s)&quot;&gt;imryan/booker#8&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Erase login.txt before publishing build(s)
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1804718872</id>
+    <published>2013-08-14T18:37:50Z</published>
+    <updated>2013-08-14T18:37:50Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/andymatuschak/Sparkle"/>
+    <title type="html">imryan starred andymatuschak/Sparkle</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;starred&lt;/span&gt; &lt;a href=&quot;/andymatuschak/Sparkle&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;andymatuschak/Sparkle&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T18:37:50Z&quot; title=&quot;2013-08-14 18:37:50&quot;&gt;August 14, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:WatchEvent/1804718729</id>
+    <published>2013-08-14T18:37:42Z</published>
+    <updated>2013-08-14T18:37:42Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/Sparkle"/>
+    <title type="html">imryan starred imryan/Sparkle</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- watch --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-star&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;starred&lt;/span&gt; &lt;a href=&quot;/imryan/Sparkle&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/Sparkle&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T18:37:42Z&quot; title=&quot;2013-08-14 18:37:42&quot;&gt;August 14, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804717586</id>
+    <published>2013-08-14T18:36:39Z</published>
+    <updated>2013-08-14T18:36:39Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/ba7e6c6250...cb97c2c780"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T18:36:39Z&quot; title=&quot;2013-08-14 18:36:39&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/cb97c2c7806b46cac077b21b79622fe74e4f9d91&quot;&gt;cb97c2c&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Removed updater framework
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804680363</id>
+    <published>2013-08-14T17:58:01Z</published>
+    <updated>2013-08-14T17:58:01Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/0d48ccbccb...ba7e6c6250"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:58:01Z&quot; title=&quot;2013-08-14 17:58:01&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/ba7e6c625068bca4a0f15176b2f2ad85e35ac5d3&quot;&gt;ba7e6c6&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Removed updater
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804679942</id>
+    <published>2013-08-14T17:57:33Z</published>
+    <updated>2013-08-14T17:57:33Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/imryan.github.io/compare/7c860bdc69...23abe29e99"/>
+    <title type="html">imryan pushed to master at imryan/imryan.github.io</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:57:33Z&quot; title=&quot;2013-08-14 17:57:33&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/imryan.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/imryan.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/imryan.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/imryan.github.io/commit/23abe29e99a9e909d31822adae8fa2516f1ee04a&quot;&gt;23abe29&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Removed updates page
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804678264</id>
+    <published>2013-08-14T17:55:49Z</published>
+    <updated>2013-08-14T17:55:49Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/imryan.github.io/compare/4b8385edf0...7c860bdc69"/>
+    <title type="html">imryan pushed to master at imryan/imryan.github.io</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:55:49Z&quot; title=&quot;2013-08-14 17:55:49&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/imryan.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/imryan.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/imryan.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/imryan.github.io/commit/7c860bdc69457be4ec416bc963245e4942b08d36&quot;&gt;7c860bd&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added updates page
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804675698</id>
+    <published>2013-08-14T17:53:05Z</published>
+    <updated>2013-08-14T17:53:05Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/imryan.github.io/compare/a8d4fb93ba...4b8385edf0"/>
+    <title type="html">imryan pushed to master at imryan/imryan.github.io</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:53:05Z&quot; title=&quot;2013-08-14 17:53:05&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/imryan.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/imryan.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/imryan.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/imryan.github.io/commit/4b8385edf0bcae2d20770c89554a89a665d36a3d&quot;&gt;4b8385e&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Delete appcast.xml
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804673978</id>
+    <published>2013-08-14T17:51:20Z</published>
+    <updated>2013-08-14T17:51:20Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/imryan.github.io/compare/4083629600...a8d4fb93ba"/>
+    <title type="html">imryan pushed to master at imryan/imryan.github.io</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:51:20Z&quot; title=&quot;2013-08-14 17:51:20&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/imryan.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/imryan.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/imryan.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://secure.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://secure.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/imryan.github.io/commit/a8d4fb93ba8bbe21f716c485b08b3560f2106b0d&quot;&gt;a8d4fb9&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Update appcast.xml
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804670816</id>
+    <published>2013-08-14T17:47:54Z</published>
+    <updated>2013-08-14T17:47:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/c81f670a2b...0d48ccbccb"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:47:54Z&quot; title=&quot;2013-08-14 17:47:54&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/0d48ccbccb16913abe3d30c6dd10f44f027cdfc0&quot;&gt;0d48ccb&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Fixed appcast.xml updates
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804663635</id>
+    <published>2013-08-14T17:40:53Z</published>
+    <updated>2013-08-14T17:40:53Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/imryan.github.io/compare/cf5b7f60ce...4083629600"/>
+    <title type="html">imryan pushed to master at imryan/imryan.github.io</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:40:53Z&quot; title=&quot;2013-08-14 17:40:53&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/imryan.github.io/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/imryan.github.io&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/imryan.github.io&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/imryan.github.io/commit/4083629600bfc0fba846aed6eb7d640ac001d415&quot;&gt;4083629&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added appcast.xml for Booker updates
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:ForkEvent/1804653975</id>
+    <published>2013-08-14T17:30:59Z</published>
+    <updated>2013-08-14T17:30:59Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/Sparkle"/>
+    <title type="html">imryan forked andymatuschak/Sparkle to imryan/Sparkle</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- fork --&gt;
+&lt;div class=&quot;simple&quot;&gt;
+  &lt;span class=&quot;octicon octicon-git-branch&quot;&gt;&lt;/span&gt;
+
+  &lt;div class=&quot;title&quot;&gt;
+    &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;forked&lt;/span&gt; &lt;a href=&quot;/andymatuschak/Sparkle&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;andymatuschak/Sparkle&lt;/a&gt; to &lt;a href=&quot;/imryan/Sparkle&quot; class=&quot;css-truncate css-truncate-target&quot; title=&quot;imryan/Sparkle&quot;&gt;imryan/Sparkle&lt;/a&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;time&quot;&gt;
+    &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:30:59Z&quot; title=&quot;2013-08-14 17:30:59&quot;&gt;August 14, 2013&lt;/time&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804637742</id>
+    <published>2013-08-14T17:13:19Z</published>
+    <updated>2013-08-14T17:13:19Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/8372a5bb9f...c81f670a2b"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T17:13:19Z&quot; title=&quot;2013-08-14 17:13:19&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/c81f670a2b257ada03af241df177dbe653e90d1a&quot;&gt;c81f670&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Added password reset &amp;amp; small fixes
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804620775</id>
+    <published>2013-08-14T16:55:41Z</published>
+    <updated>2013-08-14T16:55:41Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/bd5fabb9bc...8372a5bb9f"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T16:55:41Z&quot; title=&quot;2013-08-14 16:55:41&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/8372a5bb9f0ab4b4b58e66baf7213d6a29bdb89e&quot;&gt;8372a5b&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Update README
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804618851</id>
+    <published>2013-08-14T16:53:43Z</published>
+    <updated>2013-08-14T16:53:43Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/4bc192eb48...bd5fabb9bc"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T16:53:43Z&quot; title=&quot;2013-08-14 16:53:43&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/bd5fabb9bca88ffd6c8322fb897b6baddd4a278b&quot;&gt;bd5fabb&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Updated version notes
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804603028</id>
+    <published>2013-08-14T16:37:18Z</published>
+    <updated>2013-08-14T16:37:18Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/2a6d08529f...4bc192eb48"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T16:37:18Z&quot; title=&quot;2013-08-14 16:37:18&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/4bc192eb488a9235c4d8c66ec1f571f633944ca2&quot;&gt;4bc192e&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Emboldens current reservations that are ongoing
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1804600905</id>
+    <published>2013-08-14T16:35:12Z</published>
+    <updated>2013-08-14T16:35:12Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/issues/7"/>
+    <title type="html">imryan closed issue imryan/booker#7</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T16:35:12Z&quot; title=&quot;2013-08-14 16:35:12&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; issue &lt;a href=&quot;https://github.com/imryan/booker/issues/7&quot; title=&quot;Embolden current row if the reservation is currently ongoing&quot;&gt;imryan/booker#7&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Embolden current row if the reservation is currently ongoing
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804497439</id>
+    <published>2013-08-14T14:58:54Z</published>
+    <updated>2013-08-14T14:58:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/b183fe0ed1...2a6d08529f"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T14:58:54Z&quot; title=&quot;2013-08-14 14:58:54&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/2a6d08529f41dfba0e37c0530015f531df59557b&quot;&gt;2a6d085&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Updated version notes
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1804494820</id>
+    <published>2013-08-14T14:56:38Z</published>
+    <updated>2013-08-14T14:56:38Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/112f816550...b183fe0ed1"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T14:56:38Z&quot; title=&quot;2013-08-14 14:56:38&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/b183fe0ed125fab737f00709cb1d20003b9eb706&quot;&gt;b183fe0&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Features added
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1804493129</id>
+    <published>2013-08-14T14:55:05Z</published>
+    <updated>2013-08-14T14:55:05Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/issues/6"/>
+    <title type="html">imryan closed issue imryan/booker#6</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-closed&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T14:55:05Z&quot; title=&quot;2013-08-14 14:55:05&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;closed&lt;/span&gt; issue &lt;a href=&quot;https://github.com/imryan/booker/issues/6&quot; title=&quot;Alert user if a reservation already exists on requested date/time&quot;&gt;imryan/booker#6&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://secure.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Alert user if a reservation already exists on requested date/time
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1804439408</id>
+    <published>2013-08-14T14:05:08Z</published>
+    <updated>2013-08-14T14:05:08Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/issues/7"/>
+    <title type="html">imryan opened issue imryan/booker#7</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T14:05:08Z&quot; title=&quot;2013-08-14 14:05:08&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;opened&lt;/span&gt; issue &lt;a href=&quot;https://github.com/imryan/booker/issues/7&quot; title=&quot;Embolden current row if the reservation is currently ongoing&quot;&gt;imryan/booker#7&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Embolden current row if the reservation is currently ongoing
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:IssuesEvent/1804430656</id>
+    <published>2013-08-14T13:56:24Z</published>
+    <updated>2013-08-14T13:56:24Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/issues/6"/>
+    <title type="html">imryan opened issue imryan/booker#6</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- issues --&gt;
+&lt;span class=&quot;mega-octicon octicon-issue-opened&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-14T13:56:24Z&quot; title=&quot;2013-08-14 13:56:24&quot;&gt;August 14, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;opened&lt;/span&gt; issue &lt;a href=&quot;https://github.com/imryan/booker/issues/6&quot; title=&quot;Alert user if a reservation already exists on requested date/time&quot;&gt;imryan/booker#6&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+  &lt;div class=&quot;message&quot;&gt;
+    &lt;blockquote&gt;
+      Alert user if a reservation already exists on requested date/time
+    &lt;/blockquote&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1802764478</id>
+    <published>2013-08-12T21:10:36Z</published>
+    <updated>2013-08-12T21:10:36Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/d6276743dd...112f816550"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-12T21:10:36Z&quot; title=&quot;2013-08-12 21:10:36&quot;&gt;August 12, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/112f816550d7d2aaf8bd53828b2aecf028f6f249&quot;&gt;112f816&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Last commit of the day
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:PushEvent/1802518447</id>
+    <published>2013-08-12T16:47:54Z</published>
+    <updated>2013-08-12T16:47:54Z</updated>
+    <link type="text/html" rel="alternate" href="https://github.com/imryan/booker/compare/61afc6667e...d6276743dd"/>
+    <title type="html">imryan pushed to master at imryan/booker</title>
+    <author>
+      <name>imryan</name>
+      <email>notryancohen@gmail.com</email>
+      <uri>https://github.com/imryan</uri>
+    </author>
+    <media:thumbnail height="30" width="30" url="https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=30&amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png"/>
+    <content type="html">&lt;!-- push --&gt;
+&lt;span class=&quot;mega-octicon octicon-git-commit&quot;&gt;&lt;/span&gt;
+
+&lt;div class=&quot;time&quot;&gt;
+  &lt;time class=&quot;js-relative-date&quot; datetime=&quot;2013-08-12T16:47:54Z&quot; title=&quot;2013-08-12 16:47:54&quot;&gt;August 12, 2013&lt;/time&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;title&quot;&gt;
+  &lt;a href=&quot;/imryan&quot;&gt;imryan&lt;/a&gt; &lt;span&gt;pushed&lt;/span&gt; to &lt;a href=&quot;/imryan/booker/tree/master&quot;&gt;master&lt;/a&gt; at &lt;a href=&quot;/imryan/booker&quot; class=&quot;css-truncate css-truncate-target&quot;&gt;imryan/booker&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;details&quot;&gt;
+  &lt;a href=&quot;/imryan&quot; class=&quot;gravatar&quot;&gt;&lt;img height=&quot;30&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&quot; width=&quot;30&quot; /&gt;&lt;/a&gt;
+
+    &lt;div class=&quot;commits pusher-is-only-committer&quot;&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          &lt;span title=&quot;imryan&quot;&gt;
+            &lt;img height=&quot;16&quot; src=&quot;https://0.gravatar.com/avatar/4ec0eb7ea0107773b5deffa1c16ca52f?s=140&amp;amp;d=https%3A%2F%2Fidenticons.github.com%2Feaf257ecc397bd9667035a5395271e14.png&quot; width=&quot;16&quot; /&gt;
+          &lt;/span&gt;
+          &lt;code&gt;&lt;a href=&quot;/imryan/booker/commit/d6276743dd410ee457ac82f5c1754883816e8529&quot;&gt;d627674&lt;/a&gt;&lt;/code&gt;
+          &lt;div class=&quot;message&quot;&gt;
+            &lt;blockquote&gt;
+              Login now saves to AppData
+            &lt;/blockquote&gt;
+          &lt;/div&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</content>
+  </entry>
+</feed>
