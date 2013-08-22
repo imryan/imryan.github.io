@@ -100,10 +100,10 @@ div {
 	font-weight: light;
 }
 
-footer {
-	position: absolute;
-    bottom: 0;
-    text-align: left;
+form {
+	display: block;
+	text-align: center;
+	margin-top: 100px;
 }
 
 a:link {
@@ -122,6 +122,24 @@ a:visited {
 <h1>Time since <a href="http://twitter.com/thejoeyvill">Joey</a> hasn't had his MacBook</h1>
 <div id="counter">Contents of this DIV will be replaced by the timer</div>
 
-<footer><a href="http://joeyvillanueva.tumblr.com">joeyvillanueva.tumblr.com</a></footer>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_donations">
+<input type="hidden" name="business" value="thejoeyvill@gmail.com">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Joey Villanueva">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+<a href="https://twitter.com/intent/tweet?screen_name=AppleSupport&text=Send%20back%20%40TheJoeyVill's%20MacBook%20now" class="twitter-mention-button" data-size="large" data-related="ryancohen,TheJoeyVill">Tweet to @AppleSupport</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+</form>
+
+
+
+
 </body>
 </html>
