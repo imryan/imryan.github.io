@@ -1,4 +1,4 @@
-name: Your New Jekyll Site
+name: imryan.net
 markdown: redcarpet
-permalink: /:year/:month/:day/:title
+permalink: /blog/:title
 pygments: true
