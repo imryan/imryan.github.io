@@ -1,28 +1,3 @@
-# General Jekyll Config
+markdown: rdiscount
 pygments: true
-url: http://imryan.net
-lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore]
 permalink: /blog/:title
-
-# Theme customization - please change from the defaults!
-theme:
-  # Color for top bar, links, etc
-  highlight_color: '#3498db'
-
-  # Profile links on the left sidebar, leave blank to ignore
-  social:
-    github: imryan
-    twitter: ryancohen
-    hacker_news:
-
-  # "Hi, I'm _______"
-  name: Ryan Cohen
-  email: notryancohen@gmail.com
-  tagline: "Things I write"
-
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key:
-
-  # Toggle "Postings are my own" disclaimer in footer
-  show_disclaimer: false
