@@ -25,9 +25,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: black; }
-a:hover   { color: gray;  }
-a:visited { color: black; }
+a         { color: #333; }
+a:hover   { color: #232323; }
+a:visited { color: #333; }
 
 /*****************************************************************************/
 /*
@@ -74,7 +74,7 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #38475E;
+  color: #465875;
 }
 
 .site .header h1.title a:hover {
@@ -108,7 +108,7 @@ ul.posts span {
 }
 
 .site .footer .contact a {
-  color: #8085C1;
+  color: #465875;
 }
 
 .site .footer .rss {
