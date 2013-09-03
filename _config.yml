@@ -1,3 +1,4 @@
-markdown: rdiscount
-pygments: true
+name: imryan.net
+markdown: redcarpet
 permalink: /blog/:title
+pygments: true
