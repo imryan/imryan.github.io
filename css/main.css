@@ -74,11 +74,11 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #8085c1;
+  color: #333;
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  color: #38475E;
 }
 
 .site .header a.extra {
@@ -96,7 +96,7 @@ ul.posts span {
 
 .site .footer {
   font-size: 80%;
-  color: #666;
+  color: #333;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
