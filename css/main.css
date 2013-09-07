@@ -14,13 +14,8 @@ html, body { height: 100%; }
 
 body {
   background-color: white;
-<<<<<<< HEAD
-  font: 12pt "Helvetica Neue", helvetica, arial, clean, sans-serif;
-  *font-size: small;
-=======
-  font: 12pt "Helvetica Neue", helvetica, arial, sans-serif;
+  font: 13pt "Helvetica Neue", helvetica, arial, sans-serif;
   font-size: small;
->>>>>>> 94fdd5b283aaff518776899b98429ee378094a3d
   text-align: center;
 }
 
