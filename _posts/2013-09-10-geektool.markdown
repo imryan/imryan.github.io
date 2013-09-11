@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "GeekTool"
+date:   2013-09-10
+categories: random
+---
+
+Recently I've been dabbling with GeekTool. It's basically a free application for the Mac that allows you to customize your desktop with widgets, timestamps, and a bunch of other useless things you'd like to have that aren't even that important. I personally love it, because it gives me an Arch Linux feel with all the hacky information on the desktop. All the widgets are written from scratch by the user, in UNIX shell programming, which I think is pretty neat. It gives me a sense of satisfaction knowing that I wrote the widget myself. Here's some small things I made in the last 15 minutes.
+
+[](http://i.imgur.com/EyEByWT.png)
+
+I hope to soon expand my skills with the app and make some more neat things that again, display almost useless data, just for my satisfaction. You can view more awesome user-made creations on the [subreddit](http://reddit.com/r/geektool).
