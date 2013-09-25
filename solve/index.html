@@ -41,9 +41,18 @@ title: Ryan Cohen
 function solveVariation() {
 	var x = document.getElementById("x-value").value;
 	var y = document.getElementById("y-value").value;
-	var k = (y / x);
+	var whenY = document.getElementById("whenY-value").value;
 	
-	document.getElementById("dvResults").innerHTML = "<code>k = " + k + "<br>y = " + k + "x + 0</code>";
+	var k = (y / x);
+	var whenYResult = (k * whenY);
+	
+	if (whenY == 0) {
+		document.getElementById("dvResults").innerHTML = "<code>k = " + k + "<br>y = " + k + "x + 0</code>";
+		
+	} else {
+	
+		document.getElementById("dvResults").innerHTML = "<code>k = " + k + "<br>y = " + k + "x + 0<br>When y = " + whenY + ", y = " + whenYResult + "</code>";	
+	}
 }
 
 </script>
@@ -55,6 +64,8 @@ function solveVariation() {
 	<input id="x-value" placeholder="X"/>
 	<br>
 	<input id="y-value" placeholder="Y"/>
+	<br>
+	<input id="whenY-value" placeholder="When y ="/>
 	<br>
 	<button onclick="solveVariation()">Calculate</button>
 
