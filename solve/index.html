@@ -18,13 +18,23 @@ title: Solve
 <body onload="brython()">
 
 <script type="text/python">
+
 #doc <= "Hello World!"
+
+# Solve Direct Variation
+def solve_dv():
+	x = doc["x"].value
+	y = doc["y"].value
+	k = ( x / y)
+
+alert(k)
 
 </script>
 
 <input id="x">
 <br>
 <input id="y">
+<br>
 <button onclick="solve_dv()">Solve Direct Variation</button>
 
 </body>
