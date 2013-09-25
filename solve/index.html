@@ -13,10 +13,12 @@ function solveVariation() {
 	var y = document.getElementById("y-value").value;
 	var k = (y / x);
 	
-	alert("k = " + k);
+	document.getElementById("dvResults").innerHTML = "<code>k = " + k + "</code>";
 }
 
 </script>
+
+<div id="dvResults"></div>
 
 <p>Direct Variation Calculator (y = kx)</p>
 	<input id="x-value" placeholder="X"/>
