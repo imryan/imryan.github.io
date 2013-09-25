@@ -4,14 +4,28 @@ title: Solve
 ---
 
 <html>
-<head>
-<script src="brython.js"></script>
-</head>
+	<head>
+		<script src="brython.js"></script>
+		<style>
+		
+		body {
+			font-family: helvetica;
+		}
+		
+		</style>
+	</head>
+
 <body onload="brython()">
 
 <script type="text/python">
 doc <= "Hello World!"
+
 </script>
+
+<input id="x">
+<br>
+<input id="y">
+<button onclick="solve_dv()">Solve Direct Variation</button>
 
 </body>
 </html>
