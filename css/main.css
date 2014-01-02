@@ -14,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: white;
-  font: font-family: 12pt "HelveticaNeue-Light";
+  font: font-family: helvetica;
   font-size: small;
   text-align: center;
 }
