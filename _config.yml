@@ -1,4 +1,22 @@
 name: imryan.net
+author: Ryan Cohen
 markdown: redcarpet
+<<<<<<< HEAD
+pygments: true
+baseurl: /
+url: 
+description: theme for jekyll
+github: http://www.github.com/imryan
+twitter: http://www.twitter.com/ryancohen
+facebook: http://www.facebook.com
+linkedin: http://www.linkedin.com
+email: notryancohen@gmail.com
+location: New Jersey
+disqus: diqus-username
+
+##Make sure to edit the above fields, especially for disqus. 
+
+=======
 permalink: /blog/:title
 pygments: true
+>>>>>>> acd31fba23fda6fcf1b14fa3b953af95fbe7a6ee
