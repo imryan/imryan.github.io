@@ -1,8 +1,0 @@
----
-layout: post
-title:  "Setup"
-date:   2013-08-09
-categories: random
----
-
-So recently I've been thinking about a new desk setup. I've tried rearranging my iMac, placing books and other things on my desk, but no cigar. I love the minimalist design that my workspace has, but I feel like I need more of a major change. Recently at work, I've been [programming C#](http://github.com/imryan/booker), and I'm beginning to really admire programming on Windows. The OS X environment may be faster, but the number of languages and programs you can work with on it are very limited. I have this plan that I could satisfy both, my Windows and Mac needs. I would sell my old white MacBook, as well as my iMac. From there, I'd buy a Mac Mini along with a Thunderbolt display. Pure beauty. But wait, what about windows? Of course. I'd also buy a [Zotac Zbox](http://www.zotacusa.com/zbox-ad06.html). At the office, we have these things literally everywhere, and I work with them constantly. They run really smooth for a little box, and it could chill side by side with my Mac Mini. I'd just have both hooked up to the Thunderbolt and switch off when I needed. I'm really considering this, especially that the Mini has better speculations than my iMac currently.
