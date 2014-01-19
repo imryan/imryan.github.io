@@ -18,5 +18,9 @@ disqus: diqus-username
 
 =======
 permalink: /blog/:title
+<<<<<<< HEAD
+pygments: true
+>>>>>>> acd31fba23fda6fcf1b14fa3b953af95fbe7a6ee
+=======
 pygments: true
 >>>>>>> acd31fba23fda6fcf1b14fa3b953af95fbe7a6ee
