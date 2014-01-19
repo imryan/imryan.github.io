@@ -15,12 +15,3 @@ location: New Jersey
 disqus: diqus-username
 
 ##Make sure to edit the above fields, especially for disqus. 
-
-=======
-permalink: /blog/:title
-<<<<<<< HEAD
-pygments: true
->>>>>>> acd31fba23fda6fcf1b14fa3b953af95fbe7a6ee
-=======
-pygments: true
->>>>>>> acd31fba23fda6fcf1b14fa3b953af95fbe7a6ee
