@@ -1,9 +1,12 @@
 # Dependencies
-name: "Ryan Cohen"
-markdown: rdiscount
-pygments: true
+name: “Ryan”
+description: "Fluid, responsive blog theme for Jekyll"
 
-author: "Ryan Cohen"
+author: “Ryan “Cohen
+
 url: "http://imryan.net
+baseurl: /
 
+markdown: rdiscount
 permalink: /blog/:title
+pygments: true
