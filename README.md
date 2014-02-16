@@ -1,38 +1,14 @@
-# hikari
+#Thinny - The Infinite's Nymphet
 
-Hikari is an open-source [Jekyll](http://jekyllrb.com) theme perfect for bloggers and developers who want the best of both worlds: sharing snippets and stories/pictures of their latest vacation in Tokyo (that's just for the example, you may want to go to Kyoto too). 
+##About
+Thinny is a beautiful theme for [Jekyll](https://github.com/TryGhost/Ghost).
 
-But Hikari is also:
+(if you're looking for the [Ghost](http://ghost.org) release of the theme, check [this page](https://github.com/camporez/Thinny/releases/tag/v0.3-alexandra))
 
-- Simple & elegant
-- Fluid, responsive
-- Lightweight (no JS library has been abused during the development of this theme thanks to my buddy [Julien](https://github.com/evarouss))
-- & packed with syntax highlighting for you coders (thanks to Jekyll & Pygments)
+##Demo
+[![Preview image](http://i.imgur.com/g8asatk.png)](http://camporez.com/)
+The above image is a preview of how the post header looks on Thinny.
+A live demo is available [on my personal blog](http://camporez.com/).
 
-[View demo](http://m3xm.github.io/hikari-for-Jekyll)
-
-
-### How to install
-
-1. Clone this repo
-2. Customize _config.yml and _includes/header.html 
-3. Publish (with Github Pages, it's free!) :) 
-
-
-### Development
-
-- `master` for development and pull requests.
-- `gh-pages` for the demo page; don't bother. 
-
-
-### Author
-
-**Mathieu Mayer-Mazzoli**
-- <http://m3xm.github.io>
-- <http://twitter.com/mx3m>
-- <http://www.dribbble.com/m3xm>
-
-
-### License
-
-Open source. [MIT license](http://opensource.org/licenses/MIT).
+##More information
+Read the blog post [here](http://camporez.com/blog/thinny-2/).
