@@ -3,8 +3,8 @@ description: "Fluid, responsive blog theme for Jekyll"
 
 author: "John Doge"
 
-url: "http://imryan.net
-baseurl: /
+url: "http://imryan.net"
+baseurl: /hikari-for-Jekyll
 
 markdown: rdiscount
 permalink: :year/:month/:title.html
