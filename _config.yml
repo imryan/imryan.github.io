@@ -1,12 +1,15 @@
-# Dependencies
-name: “Ryan”
+name: "hikari"
 description: "Fluid, responsive blog theme for Jekyll"
 
-author: “Ryan “Cohen
+author: "John Doge"
 
 url: "http://imryan.net
 baseurl: /
 
 markdown: rdiscount
-permalink: /blog/:title
+permalink: :year/:month/:title.html
 pygments: true
+
+# Google Analytics
+ga_domain: m3xm.github.io
+ga_tracking_id: UA-47727049-1
