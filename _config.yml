@@ -1,12 +1,4 @@
-# Dependencies
-name: “Ryan”
-description: "Fluid, responsive blog theme for Jekyll"
-
-author: “Ryan “Cohen
-
-url: "http://imryan.net
-baseurl: /
-
-markdown: rdiscount
+name: imryan.net
+markdown: redcarpet
 permalink: /blog/:title
 pygments: true
