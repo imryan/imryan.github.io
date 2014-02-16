@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Nostalgia"
+date:   2013-10-01
+categories: random
+---
+
+I am constantly brought back into the past by my frequent nostalgia, and sometimes I allow it to take the best of me. Dating back to when I was younger, I have always had an interest for time. Ranging from historic pieces to current timestamps, time was intriguing to me, and it still continues to be. Whenever I see a piece of literature, artwork, photo or video, I immediately search for its creation date, and my mind instantly gets set back to that time. I suddenly remember almost every detail of that day, whether it be how I was feeling, what I was doing, or even what the aroma was. I am mentally set back in time to the date. As weird as it sounds, it is true. There are days where I will smell an aroma I remember smelling from 2nd grade, and suddenly remember the day I first smelt it. I'm making myself sound like a freak for actually putting this all out, but ever since I was 9 years old, I've wanted to actually put all of this out. Ironically, I even remember the exact moment I first thought of logging this as well.
+
+Before you close out of my blog and forever view me as "that weird kid", just remember that I simply cannot control it. It's something I was born with, and is not a result from a previous action from my own doing. What I hate most about my mental time machine is that it can easily alter my mood, forcing me to become an emotional rollercoaster which sets me off in multiple directions at a time. I often hate my mentality, but sometimes it comes in handy when I need it.
+
+Surprisingly, I cannot remember the very first instance of this happening, but I do remember the first time I made a mental timestamp that I'll never forget. It was the first day of 5th grade at my old elementary school. I was sitting in a wooden desk on the left side of the classroom next to my friend Connor. The light was just able to peak over the side of the white stone blocks on the wall seen just outside of the window. It shone through the screen on the window, then through the glass, making visible all of the dust particles. It shone directly onto my wooden desktop as I sat there. The aroma was a subtle old home smell, very soft and flat. I remember studying the entire room with my eyes, reading into my memory every detail surrounding me, so that I could forever remember the day. Well, it happened, and still continues to happen.
+
+I never imagined that from that day on, everywhere I go and do will place a permanent memory on my brain. You know, I guess that's just the brain's job, but I feel as if my memories go a bit further than so. I wouldn't say these constant memories are ruining my life, but they often do interfere with my well-being, and it seldom frightens me. Just picture it: every ambience you ever come into contact with instantly being imprinted onto your brain, just to be referenced one day in the future when something similar is presented to you.
+
+These are some of the things that I've always wanted to log, dating back to around 2005.
