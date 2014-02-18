@@ -1,67 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
-  <meta charset="utf-8">
-  <title>{{ page.title }}</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="{{ site.description }}">
-  <link href="/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/css/hc.css" rel="stylesheet">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-      <![endif]-->
-    </head>
-    <body>
-<div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
-      <div id = "wrapper">      
+    <title>{{ site.name }} - {{ site.description }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="content-language" content="en-gb" />
+    <meta name="description" content="Fluid, responsive blog theme for Jekyll.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/syntax.css" />
+    <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+</head>
 
+    <body> 
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
-<div class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <p class="navbar-brand">{{ site.name }}</p>
+        <div id="off-canvas">
+        	<div id="avatar">
+        		<img src="{{ site.baseurl }}/assets/img/avatar.jpg" alt="Profile Picture" title="wow, very face, such photograph, wow">
+        	</div>
+        	<div id="bio">
+            	<h1>Hi, I'm {{ site.author }}.</h1>
+            	<p>I'm a developer, living in Paris, France and this is my personal blog. I share things on <a href="">Github</a>, flex my design muscles on <a href="">Dribbble</a>, share stupid thoughts on <a href="">Twitter</a>. Shoot me an <a href="mailto:">email</a> if you'd like to be in touch.</p>
+        	</div>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-          <li><a href="{{ site.url }}/list.html">List</a></li>
-          <li><a href="{{ site.url }}/links.html">Links</a></li>
-          <li><a href="{{ site.url }}/projects.html">Projects</a></li>
-          <li><a href="{{ site.url }}/about.html">About</a></li>
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
 
+        <header>
+        	<div class="h-wrap">
+            	<h1 class="title"><a href="{{ site.baseurl }}" title="Back to Homepage">{{ site.name }}</a></h1>
+            	<a class="menu-icon" title="Open Bio"><span class="lines"></span></a>
+            </div>
+        </header>
 
-
-       <!-- Sidebar -->
-       <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-          <li class="sidebar-brand"><a href="{{ site.url }}"><h1 class="brand">{{ site.name }}</h1></a><h3>{{ site.description }}</h3></li>
-          <hr />
-          <li><a href="{{ site.url }}/list.html">List</a></li>
-          <li><a href="{{ site.url }}/links.html">Links</a></li>
-          <li><a href="{{ site.url }}/projects.html">Projects</a></li>
-          <li><a href="{{ site.url }}/about.html">About</a></li>
-          <hr />
-          <div id="social-wrapper">
-           <li> <a href="{{ site.twitter }}"><i class="fa fa-twitter-square"></i> @twitter</a></li>
-           <li> <a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>
-           <li> <a href="{{ site.facebook }}"><i class="fa fa-facebook-square"></i> facebook</a></li>
-           <li> <a href="{{ site.github }}"><i class="fa fa-github-square"></i> github</a> </li>
-         </div>
-       </ul>
-     </div>
-
-
-
-     <div class="container">
-       
+        <main>

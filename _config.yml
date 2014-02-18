@@ -1,4 +1,15 @@
-name: imryan.net
-markdown: redcarpet
+name: "Ryan"
+description: "Developer."
+
+author: "Ryan Cohen"
+
+url: "http://imryan.net"
+baseurl: /blog
+
+markdown: rdiscount
 permalink: /blog/:title
 pygments: true
+
+# Google Analytics
+ga_domain: m3xm.github.io
+ga_tracking_id: UA-47727049-1
