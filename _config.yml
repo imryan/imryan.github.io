@@ -1,10 +1,9 @@
-name: "Ryan"
+name: "Ryan Cohen"
 description: "A blog"
 
 author: "Ryan Cohen"
 
 url: "http://imryan.net"
-baseurl: "/"
 
 markdown: rdiscount
 permalink: /blog/:title
