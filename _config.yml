@@ -4,8 +4,8 @@ description: "A blog"
 author: "Ryan Cohen"
 
 url: "http://imryan.net"
-baseurl: /
+baseurl: "/"
 
 markdown: rdiscount
-permalink: :year/:month/:title.html
+permalink: /blog/:title
 pygments: true
