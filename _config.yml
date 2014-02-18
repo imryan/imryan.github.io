@@ -4,7 +4,6 @@ description: "Developer."
 author: "Ryan Cohen"
 
 url: "http://imryan.net"
-baseurl: /blog
 
 markdown: rdiscount
 permalink: /blog/:title
