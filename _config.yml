@@ -4,6 +4,7 @@ description: "A blog"
 author: "Ryan Cohen"
 
 url: "http://imryan.net"
+baseurl: “http://imryan.net/“
 
 markdown: rdiscount
 permalink: /blog/:title
