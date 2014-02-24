@@ -1,0 +1,27 @@
+---
+layout: post
+title:  Hackathon
+date:   2014-2-18
+categories: random
+---
+
+Wow, haven't posted anything here in some time. But the good news is that I have been very busy, and have a lot of neat things to log down here.
+
+First off, I've been doing a lot of web stuff recently, such as Node, Rails, Sinatra, etc. I learned how to write some simple REST APIs, which got me pretty excited and more into web development. Needless to say, I'm still doing iOS stuff; which I have been very into lately as well.
+
+Last month while I was browsing some programming subreddits over on reddit, I came across a post about this event called "CodeDay." I decided to check it out, and later found that it was a hackathon happening locally in Manhattan. I jumped on it right away and registered. This would be my first ever hackathon, and I was already super excited about it. As weeks passed by, the morning finally came when I was awaiting the bus at the cold bus stop. I took it into the Port Authority bus station in midtown, and then hopped on the 3 train headed downtown. Once I arrived on Wall Street, I walked over to the next block and into the building in which I'd be spending the next 24 hours. I rode the elevator up to the twentieth floor where I was greeted by some of the developers who worked at Onsip, the startup company who offered their office space for the event. Some hours passed, and during those I was hanging out with some awesome kids from my area who I had met there.
+
+Once the time had come, and we had to begin forming teams, I had this odd feeling. I felt as if I wanted to work alone, which was odd for me since I was really looking forward to working in a team setting. That feeling was persistent even when some asked me to join their groups. But still, I stayed true to my feelings and denied. At that point, I felt like I was onto something, something greater than just a hackathon project. Shortly after this, I followed through on my intention, and went on to begin writing it.
+
+I worked some five hours into my idea, and it was then that I realized that it was all wrong. All of it. And being the OCD kid, I erased all traces of the project in that moment, cleaned up my files as well as my thought pattern, and began once more on my plan. I slipped my headphones into my ears and started getting in the zone with my favorite Coldplay album, [Parachutes.](http://en.wikipedia.org/wiki/Parachutes) Within minutes into my project, I knew I could go through with it, and make it the best it can be.
+
+Some hours pass by, and it's around midnight. I'm sitting with my back against the window of the twentieth floor in lower Manhattan, doing the one thing I'm passionate about. I questioned if there could be anything more amazing than that very moment. I don't think there ever will be. As I continued work on my project, I was rapidly coming up with ideas and implementing them almost instantly. More hours pass by, and I've came up with something. I was finally at a stable build of my app, and began testing. I fixed a bunch of bugs and added some more features before taking a 30-minute nap around 7:30, prior to taking a walk around lower Manhattan with some friends looking for a Dunkin Donuts. Before we knew it, 11 AM was here, and the judges began camping around. I presented my idea with great enthusiasm and ambition for its future, and they seemed to have been intrigued by it. I never for a single moment during that whole event did I ever feel as if I had a shot at winning though.
+
+An hour and a half later, around 12:30, the 60 something attendees all gathered in the conference room for presentations. As I watched brilliant kids come and go with their awesome projects, I was amazed at how awesome the teenage development community really is. While in that thought, I was called up to present. I hooked my laptop into the HDMI and displayed the project name on the projector, as I began to give some background on my concept. Following that, I then presented the app itself, while explaining each feature to the audience. It felt amazing looking into the crowd of ambitious developers, as they applauded for myself and my project. I wish I could relive that presentation.
+
+Following the presentations, we were ushered to exit the conference room so that the judges may make their final decisions on who the winners are. I stood with my newly-made friends awaiting the announcement of the winners, when the door opened, and out came the judges. They gave a brief introduction about how awesome the event was, and then proceeded to begin onto the most ambitious project award. Following that was the best application award. With my heart racing with anxiety, I thought to myself, *what if I actually won?* Before I could even finish that thought, my project name was called. And in that moment, as meaningless as it may sound to others, was the best moment of my life.
+
+I said my goodbyes as I entered the elevator and began my journey back home. I don't think I stopped smiling for a single second for the rest of that day.
+
+The blog post by Onsip, is available [here.](http://www.onsip.com/blog/2014/02/18/onsips-first-codeday-lets-high-school-students-realize-their-programming-potentials)
+Note: the name and concept of my project was written wrong. You can find more about it [here.](http://codefriend.net)
