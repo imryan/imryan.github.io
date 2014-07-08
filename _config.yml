@@ -1,0 +1,10 @@
+name: "Ryan Cohen"
+description: "A blog"
+
+author: "Ryan Cohen"
+
+url: "http://imryan.net"
+
+markdown: rdiscount
+permalink: /blog/:title
+pygments: true
