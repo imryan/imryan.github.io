@@ -1,22 +1,15 @@
 ---
 layout: default
-title: Homepage
+title: Gereksiz
 ---
 
 <div id="home">
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li itemscope itemtype="http://schema.org/BlogPosting">
-        <a href="http://imryan.net{{ post.url }}" itemprop="url">
-          <div class="p-wrap">
-            <time datetime="{{ post.date | date_to_xmlschema }}" class="date"
-                itemprop="datePublished">
-              {{ post.date | date_to_string }}
-            </time>
-            <p itemprop="name headline">{{ post.title }}</p>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+   <p class="intro">You've reached the webpage for the Jekyll theme <a href="https://github.com/berkoz/gereksiz">Gereksiz.</a> This is a blog. <a href="/atom.xml">Atom feed.</a></p>
+   
+   <h2>Blog posts</h2>
+   <ul class="posts">
+      {% for post in site.posts %}
+      <li><span>&gt; {{ post.date | date_to_string }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+   </ul>
 </div>
