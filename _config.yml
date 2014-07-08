@@ -1,10 +1,12 @@
-name: "Gereksiz"
-markdown: redcarpet
-highlighter: pygments
-permalink: :title
-exclude: [README.md, LICENSE, Makefile]
+name: Your New Jekyll Site
+description: Blogging about stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-# Information for the Atom feed
-gereksiz:
-   author: "John Doe"
-   email: "john.doe@mail.sexy"
+markdown: redcarpet
+pygments: true
+logo: false
+paginate: 15
+
+# Details for the RSS feed generator
+url:            'blog url'
+author:         'Your Name'
