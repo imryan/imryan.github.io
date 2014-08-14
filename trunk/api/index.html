@@ -1,0 +1,525 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>StudentWatch REST API</title>
+
+</head>
+<body>
+<h1>StudentWatch REST API</h1>
+
+<hr />
+
+<p>The official documentation of the StudentWatch REST API.</p>
+
+<h2>Business Service</h2>
+
+<hr />
+
+<p><code>POST /BusinessService/GetBusinessForUser</code></p>
+
+<pre><code>Returns the business that the user is assigned to.
+
+Params:
+    - ID
+</code></pre>
+
+<p><code>POST /BusinessService/SaveBusiness</code></p>
+
+<pre><code>Saves or updates a Business account.
+
+Params:
+    - ID (if updating)
+    - Name
+    - DeviceLimit
+    - EventsLimit
+    - StudentLimit
+    - UserLimit
+</code></pre>
+
+<h2>Events Service</h2>
+
+<hr />
+
+<p><code>POST /EventsService/SaveEvent</code></p>
+
+<pre><code>Saves or updates an Event,
+
+Params:
+    - ID (if updating)
+    - BusinessID
+    - City
+    - State
+    - Date_Time
+    - Description
+    - DriverID
+    - Location
+</code></pre>
+
+<p><code>POST /EventsService/SaveEventForStudent</code></p>
+
+<pre><code>Assigns a student to an event.
+
+Params:
+    - StudentID
+    - EventID
+</code></pre>
+
+<p><code>POST /EventsService/GetEventsByBusiness</code></p>
+
+<pre><code>Returns list of events for the given Business.
+
+Params:
+    - BusinessID
+</code></pre>
+
+<p><code>POST /EventsService/GetEventsByRegistrationCode</code></p>
+
+<pre><code>Returns list of events for the given registration code.
+
+Params:
+    - RegistrationCode
+</code></pre>
+
+<p><code>GET /EventsService/GetEventsForStudent/[StudentID]</code></p>
+
+<pre><code>Returns list of events for the given Student.
+
+Params:
+    - StudentID
+</code></pre>
+
+<p><code>POST /EventsService/DeleteEvent</code></p>
+
+<pre><code>Deletes an Event.
+
+Params:
+    - EventID
+</code></pre>
+
+<p><code>POST /EventsService/DeleteEventForStudent</code></p>
+
+<pre><code>Unassigns an Event for a Student.
+
+Params:
+    - StudentID
+    - EventID
+</code></pre>
+
+<h2>User Service</h2>
+
+<hr />
+
+<p><code>POST /UserService/ActivateUser</code></p>
+
+<pre><code>Activates a User account.
+
+Params:
+    - ID
+</code></pre>
+
+<p><code>POST /UserService/DeactiveUser</code></p>
+
+<pre><code>Deactivates a User account.
+
+Params:
+    - ID
+</code></pre>
+
+<p><code>POST /UserService/ValidateUser</code></p>
+
+<pre><code>Validates a User account.
+
+Params:
+    - ID
+</code></pre>
+
+<p><code>POST /UserService/SaveUser</code></p>
+
+<pre><code>Saves or updates a User account.
+
+Params:
+    - ID (if updating)
+    - BusinessID
+    - Email
+    - FirstName
+    - MiddleName
+    - LastName
+    - Password
+    - Role
+    - Username
+</code></pre>
+
+<p><code>POST /UserService/DeleteUser</code></p>
+
+<pre><code>Deletes a User account.
+
+Params:
+    - ID
+</code></pre>
+
+<p><code>POST /UserService/GetUserInfoById</code></p>
+
+<pre><code>Returns information about the User given.
+
+Params:
+    - ID
+</code></pre>
+
+<p><code>POST /UserService/GetUserListByBusiness</code></p>
+
+<pre><code>Returns a list of Users for the Business.
+
+Params:
+    - BusinessID
+</code></pre>
+
+<h2>Student Service</h2>
+
+<hr />
+
+<p><code>POST /StudentService/AddStudent</code></p>
+
+<pre><code>Adds a new Student into the database.
+
+Params:
+    - BusinessID
+    - CellNumber
+    - DOB
+    - ECName
+    - ECNumber
+    - EventID
+    - FirstName
+    - MiddleName
+    - LastName
+    - Notes
+    - Picture
+    - SchoolID
+</code></pre>
+
+<p><code>GET /StudentService/DeleteStudent/[StudentID]</code></p>
+
+<pre><code>Deletes a Student from the database.
+
+Params:
+    - StudentID
+</code></pre>
+
+<p><code>POST /StudentService/EditStudent</code></p>
+
+<pre><code>Edits a Student
+
+Params:
+    - ID
+    - BusinessID
+    - CellNumber
+    - DOB
+    - ECName
+    - ECNumber
+    - EventID
+    - FirstName
+    - MiddleName
+    - LastName
+    - Notes
+    - Picture
+    - SchoolID
+</code></pre>
+
+<p><code>GET /StudentService/GetLastScanLocation/[StudentID]</code></p>
+
+<pre><code>Returns the ID of the Stop where the student was last scanned.
+
+Params:
+    - StudentID
+</code></pre>
+
+<p><code>GET /StudentService/GetReportForStudent/[StudentID]</code></p>
+
+<pre><code>Returns a report of all the places the Student was scanned at.
+
+Params:
+    - StudentID
+</code></pre>
+
+<p><code>GET /StudentService/GetStudentById/[StudentID]</code></p>
+
+<pre><code>Returns a Student object with information for the Student given.
+
+Params:
+    - StudentID
+</code></pre>
+
+<p><code>GET /StudentService/GetStudentByNfc/[NfcCode]</code></p>
+
+<pre><code>Returns a Student by their NFC code.
+
+Params:
+    - NfcCode
+</code></pre>
+
+<p><code>GET /StudentService/GetStudentByQr/[QrCode]</code></p>
+
+<pre><code>Returns a Student by their QR code.
+
+Params:
+    - QrCode
+</code></pre>
+
+<p><code>GET /StudentService/GetStudentsForEvent/[BusinessID]/[EventID]</code></p>
+
+<pre><code>Returns a Student by their QR code.
+
+Params:
+    - BusinessID
+    - EventID
+</code></pre>
+
+<p><code>POST /StudentService/SaveReport</code></p>
+
+<pre><code>Saves a new Stop to a StudentReport object.
+
+Params:
+    - BusinessID
+    - EventID
+    - Latitude
+    - Longitude
+    - Timestamp
+    - SchoolID
+    - StopID
+    - StudentID
+</code></pre>
+
+<h2>Stop Service</h2>
+
+<hr />
+
+<p><code>POST /StopsService/SaveStop</code></p>
+
+<pre><code>Saves a new Stop to the database.
+
+Params:
+    - BusinessID
+    - EventID
+    - Description
+    - Location
+</code></pre>
+
+<p><code>GET /StopsService/GetStopById/[BusinessID]/[EventID]/[ID]</code></p>
+
+<pre><code>Returns a Stop object by its ID.
+
+Params:
+    - BusinessID
+    - EventID
+    - ID
+</code></pre>
+
+<p><code>GET /StopsService/GetStopsForEvent/[BusinessID]/[EventID]</code></p>
+
+<pre><code>Returns a list of Stops for the Event.
+
+Params:
+    - BusinessID
+    - EventID
+</code></pre>
+
+<p><code>POST /StopsService/GetStopById/SetStopCompleted</code></p>
+
+<pre><code>Sets a Stop as completed.
+
+Params:
+    - ID
+</code></pre>
+
+<p><code>POST /StopsService/DeleteStop</code></p>
+
+<pre><code>Deletes a Stop.
+
+Params:
+    - ID
+</code></pre>
+
+<h2>School Service</h2>
+
+<hr />
+
+<p><code>POST /SchoolService/SaveSchool</code></p>
+
+<pre><code>Saves a new School to the database.
+
+Params:
+    - Address
+    - BusinessID
+    - City
+    - Name
+    - Phone
+    - State
+</code></pre>
+
+<p><code>GET /SchoolService/GetSchoolsForBusiness/[BusinessID]</code></p>
+
+<pre><code>Saves a new School to the database.
+
+Params:
+    - BusinessID
+</code></pre>
+
+<p><code>POST /SchoolService/DeleteSchool</code></p>
+
+<pre><code>Deletes a new School to the database.
+
+Params:
+    - ID
+</code></pre>
+</body>
+</html>
