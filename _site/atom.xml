@@ -4,7 +4,7 @@
  <title>Ryan</title>
  <link href="http://deadryan.xyz/atom.xml" rel="self"/>
  <link href="http://deadryan.xyz/"/>
- <updated>2016-03-26T22:49:28-04:00</updated>
+ <updated>2016-03-26T23:03:42-04:00</updated>
  <id>http://deadryan.xyz</id>
  <author>
    <name>Ryan Cohen</name>
@@ -21,7 +21,7 @@
 
 &lt;p&gt;In the meantime, here is a picture of a cute pigeon begging for my bread in City Hall Park the other day.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/img/bird.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://deadryan.xyz/assets/img/bird.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I hope you enjoyed because there are many more to come!&lt;/p&gt;
 </content>
