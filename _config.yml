@@ -3,7 +3,7 @@ title:               Ryan Cohen
 tagline:             'on the web'
 description:         'My webspot'
 url:                 http://deadryan.xyz
-baseurl:             ''
+baseurl:             'deadryan.xyz'
 paginate:            5
 
 # About/contact
