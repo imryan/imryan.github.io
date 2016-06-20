@@ -1,5 +1,5 @@
 # Setup
-title:               Ryan Cohen
+title:               Ryan
 tagline:             'on the web'
 description:         'My webspot'
 url:                 http://deadryan.xyz
@@ -13,4 +13,4 @@ author:
   email:             notryancohen@gmail.com
 
 # Custom vars
-version:             1.0.0
+version:             1.0
