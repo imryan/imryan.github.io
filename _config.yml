@@ -1,16 +1,27 @@
-# Setup
-title:               Ryan
-tagline:             'on the web'
-description:         'My webspot'
-url:                 http://deadryan.xyz
-baseurl:             ''
-paginate:            5
+# Blog settings
+permalink: /blog/:title
 
-# About/contact
-author:
-  name:              Ryan Cohen
-  url:               https://twitter.com/ryancohen
-  email:             notryancohen@gmail.com
 
-# Custom vars
-version:             1.0
+# My variables
+name: Ryan Cohen
+description: on the web
+google_verification: null
+
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
