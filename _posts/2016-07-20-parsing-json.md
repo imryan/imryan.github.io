@@ -7,7 +7,7 @@ Say you want to make your app come alive with refreshed data from the web. There
 
 ```
 {
-	"id": 1,
+    "id": 1,
     "name": "A green door",
     "price": 12.50,
     "tags": ["home", "green"]
