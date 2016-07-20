@@ -1,94 +1,53 @@
-# User Settings | Edit there as per required
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
 
-title: accent
-url: "http://deadryan.xyz"
-baseurl: "/"
+# Basic
+name:               "Ryan Cohen"
+description:        "talking to myself online"
 
-# This will show up at the top of index page
-site_heading: >
-    foo <span class="faded">'s blog</span>
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+url:                "//kiko.gfjaru.com"
+author:             "gfjaru"
+twitter:
+  username:         "gfjaru"
+#facebook:
+#  app_id:           1234
+#    publisher:      1234
 
-email: notryancohen@gmail.com
-author: Ryan Cohen
-# This description will show up in google search results
-# (for index page) etc.
-description: >
-    accent is, as Trump would put it, the best
+# URL
+baseurl:            ""
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title/
 
-# This will what will show against &copy; in the footer
-copyright: accent
-# Toggle your short bio, which will displayed on your index page
-# Just toggle it and run jekyll again to see
-intro: false         # Tip: Remove the span from site_heading if intro is set to true
-# This will be displayed in your intro
-short_bio: >
-    Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
-    theme is that you can change the accent color. Refer the
-    <a class="underline different-highlight" href="http://ankitsultana.me/accent/documentation.html">
-        Documentation
-    </a>
-    to know how.
+# Markdown
+markdown:           kramdown
 
-permalink: /:title.html
+# Navigation
+nav:
+  - name:           "About"
+    href:           "//kiko.gfjaru.com/about"
+  - name:           "Download"
+    href:           "//github.com/gfjaru/Kiko/releases"
 
-# Comments are powered by disqus
-comments: true
-
-# keep about_stub roughly 12 words long for best results
-# This will show up at the bottom of each post
-# Note that about_footer should be true if you want
-# to see author information at the bottom of each post
-about_stub: >
-    Keep this sentence less than 13 words or it won't look good.
-
-about_footer: true
-
-twitter_username: ryancohen
-github_username: imryan
-facebook_id: notryancohen
-
-favicon: true
-favicon_location: "images/favicon.ico"
-
-profile_picture: images/temp.png
-paginate: 5
-paginate_path: "/page/:num"
-tracking_id: UA-69243698-7 # GA Tracking ID
-
-# Social Stuff | open graph and twitter cards
-og_image: "images/accent.png" # This will show in facebook thumbnails
-twitter_image: "http://ankitsultana.me/images/accent.png?1234" # This will show in twitter cards
-
-####################################
-####################################
-####################################
-### Build Settings | Don't Touch ###
-####################################
-####################################
-####################################
-
-markdown: kramdown
-
-gems:
-    - jekyll-paginate
-
+# Sass
 sass:
-    style: compressed
-    sass_dir: _sass
+  style:            :compressed
 
 # Scopes
 defaults:
-    -
-        scope:
-            path:   ""
-            type:   "pages"
-        values:
-            layout: "page"
-    -
-        scope:
-            path:   ""
-            type:   "posts"
-        values:
-            layout: "post"
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
 
-exclude: [vendor] # For travis ci
+gems:
+  - jekyll-seo-tag

@@ -1,24 +1,15 @@
 ---
 layout: default
 ---
-
-<div class="content container">
-    <div class="post-date">
-        <time>{{ page.date | date: '%B %d, %Y '}}</time>
-    </div>
-    <h1 class="post-title">{{ page.title }}</h1>
-    {{ content }}
+<header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+  </h1>
+</header>
+<div class="content post">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <div class="post-date">
+    <time>{{ page.date | date_to_string }}</time>
+  </div>
+  {{ content }}
 </div>
-<div class="container">
-    {% include share.html %}
-</div>
-
-{% if site.about_footer %}
-    {% include about.html %}
-{% endif %}
-
-{% if site.facebook_comments %}
-    {% include fb_comments.html %}
-{% endif %}
-
-{% include disqus.html %}

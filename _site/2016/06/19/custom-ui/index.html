@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Custom UIButton with Delegate</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="alternate" type="application/rss+xml" title="RSS Feed for Ryan Cohen" href="/feed.xml" />
+  <!-- Begin Jekyll SEO tag v2.0.0 -->
+<title>Custom UIButton with Delegate - Ryan Cohen</title>
+<meta property="og:title" content="Custom UIButton with Delegate" />
+<meta name="description" content="You’re designing a project and you decide it would be more efficient to use custom interface elements. In this example you’d need a button that, when pressed, changes some values and performs various behaviors. Instead of creating an empty NSObject class and constructing a button object, you can simply create a new class that subclasses UIButton. By doing so, you’re already incorporating the attributes and behaviors of a regular UIButton, except you can name this button whatever you’d like, add extra attributes, actions, etc. Just make sure you feed it and take care of it." />
+<meta property="og:description" content="You’re designing a project and you decide it would be more efficient to use custom interface elements. In this example you’d need a button that, when pressed, changes some values and performs various behaviors. Instead of creating an empty NSObject class and constructing a button object, you can simply create a new class that subclasses UIButton. By doing so, you’re already incorporating the attributes and behaviors of a regular UIButton, except you can name this button whatever you’d like, add extra attributes, actions, etc. Just make sure you feed it and take care of it." />
+<link rel="canonical" href="//kiko.gfjaru.com/2016/06/19/custom-ui/" />
+<meta property="og:url" content="//kiko.gfjaru.com/2016/06/19/custom-ui/" />
+<meta property="og:site_name" content="Ryan Cohen" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-06-19T00:00:00-04:00" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@gfjaru" />
+<meta name="twitter:creator" content="@gfjaru" />
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Custom UIButton with Delegate",
+    "datePublished": "2016-06-19T00:00:00-04:00",
+    "description": "You’re designing a project and you decide it would be more efficient to use custom interface elements. In this example you’d need a button that, when pressed, changes some values and performs various behaviors. Instead of creating an empty NSObject class and constructing a button object, you can simply create a new class that subclasses UIButton. By doing so, you’re already incorporating the attributes and behaviors of a regular UIButton, except you can name this button whatever you’d like, add extra attributes, actions, etc. Just make sure you feed it and take care of it.",
+    "url": "//kiko.gfjaru.com/2016/06/19/custom-ui/"
+  }
+</script>
+<!-- End Jekyll SEO tag -->
+</head>
+<body>
+  <div class="container">
+    <header class="masthead">
+  <h1 class="masthead-title--small">
+    <a href="/">Ryan Cohen</a>
+  </h1>
+</header>
+<div class="content post">
+  <h1 class="post-title">Custom UIButton with Delegate</h1>
+  <div class="post-date">
+    <time>19 Jun 2016</time>
+  </div>
+  <p>You’re designing a project and you decide it would be more efficient to use custom interface elements. In this example you’d need a button that, when pressed, changes some values and performs various behaviors. Instead of creating an empty <code class="highlighter-rouge">NSObject</code> class and constructing a button object, you can simply create a new class that subclasses <code class="highlighter-rouge">UIButton</code>. By doing so, you’re already incorporating the attributes and behaviors of a regular <code class="highlighter-rouge">UIButton</code>, except you can name this button whatever you’d like, add extra attributes, actions, etc. Just make sure you feed it and take care of it.</p>
+
+<p>We’ll be creating a custom button subclass that is initialized with a string value that will be displayed on the button’s text label. When the button is pressed, we will perform a simple action such as changing a text label to showcase the behaviors of our button class in other classes. The subclass will contain delegate methods that can be accessed by any outside class that will allow it to interact with the button through its delegate.</p>
+
+<p>First off, we’ll create a new subclass of <code class="highlighter-rouge">UIButton</code> called <code class="highlighter-rouge">RCButton</code> and give it an initializer to pass in some values I need to construct the button. Feel free to change the prefix to your own initials. Keep in mind also that Apple does suggest using a three character prefix, but in this case I will use two.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="k">@interface</span> <span class="nc">RCButton</span> <span class="p">:</span> <span class="nc">UIButton</span>
+
+<span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">UILabel</span> <span class="o">*</span><span class="n">textLabel</span><span class="p">;</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithFrame</span><span class="p">:(</span><span class="n">CGRect</span><span class="p">)</span><span class="nv">frame</span> <span class="nf">text</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">text</span><span class="p">;</span>
+
+<span class="k">@end</span>
+</code></pre>
+</div>
+<p>And then we dip into the implementation to assign values and setup our subviews.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="k">@interface</span>  <span class="nc">RCButton</span> <span class="p">()</span>
+
+<span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">)</span> <span class="n">UILabel</span> <span class="o">*</span><span class="n">textLabel</span><span class="p">;</span>
+
+<span class="k">@end</span>
+
+<span class="k">@implementation</span> <span class="nc">RCButton</span>
+
+<span class="cp">#pragma mark - Initializer
+</span>
+<span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithFrame</span><span class="p">:(</span><span class="n">CGRect</span><span class="p">)</span><span class="nv">frame</span> <span class="nf">text</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">text</span> <span class="p">{</span>
+    <span class="n">self</span> <span class="o">=</span> <span class="p">[</span><span class="n">super</span> <span class="nf">initWithFrame</span><span class="p">:</span><span class="n">CGRectMake</span><span class="p">(</span><span class="n">frame</span><span class="p">.</span><span class="n">origin</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">frame</span><span class="p">.</span><span class="n">origin</span><span class="p">.</span><span class="n">y</span><span class="p">,</span> <span class="mi">50</span><span class="p">.</span><span class="n">f</span><span class="p">,</span> <span class="mi">50</span><span class="p">.</span><span class="n">f</span><span class="p">)];</span>
+    
+    <span class="k">if</span> <span class="p">(</span><span class="n">self</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">_textLabel</span> <span class="o">=</span> <span class="p">[[</span><span class="n">UILabel</span> <span class="nf">alloc</span><span class="p">]</span> <span class="nf">initWithFrame</span><span class="p">:</span><span class="n">CGRectMake</span><span class="p">(</span><span class="n">frame</span><span class="p">.</span><span class="n">origin</span><span class="p">.</span><span class="n">x</span><span class="p">,</span> <span class="n">frame</span><span class="p">.</span><span class="n">origin</span><span class="p">.</span><span class="n">y</span><span class="p">,</span> <span class="mi">65</span><span class="p">.</span><span class="n">f</span><span class="p">,</span> <span class="mi">20</span><span class="p">.</span><span class="n">f</span><span class="p">)];</span>
+        <span class="n">_textLabel</span><span class="p">.</span><span class="n">font</span> <span class="o">=</span> <span class="p">[</span><span class="n">UIFont</span> <span class="nf">fontWithName</span><span class="p">:</span><span class="s">@"Helvetica-Neue"</span> <span class="nf">size</span><span class="p">:</span><span class="mi">11</span><span class="p">.</span><span class="mi">5</span><span class="n">f</span><span class="p">];</span>
+        <span class="n">_textLabel</span><span class="p">.</span><span class="n">textColor</span> <span class="o">=</span> <span class="p">[</span><span class="n">UIColor</span> <span class="nf">grayColor</span><span class="p">];</span>
+        <span class="n">_textLabel</span><span class="p">.</span><span class="n">center</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">center</span><span class="p">;</span>
+        <span class="n">_textLabel</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="n">text</span><span class="p">;</span>
+        <span class="n">_textLabel</span><span class="p">.</span><span class="n">textAlignment</span> <span class="o">=</span> <span class="n">NSTextAlignmentCenter</span><span class="p">;</span>
+        
+        <span class="p">[</span><span class="n">self</span> <span class="nf">addSubview</span><span class="p">:</span><span class="n">_textLabel</span><span class="p">];</span>
+        <span class="p">[</span><span class="n">self</span> <span class="nf">addTarget</span><span class="p">:</span><span class="n">self</span> <span class="nf">action</span><span class="p">:</span><span class="k">@selector</span><span class="p">(</span><span class="n">buttonWasSelected</span><span class="o">:</span><span class="p">)</span> <span class="n">forControlEvents</span><span class="o">:</span><span class="n">UIControlEventTouchUpInside</span><span class="p">];</span>
+    <span class="p">}</span>
+    
+    <span class="k">return</span> <span class="n">self</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="cp">#pragma mark - Draw Rect
+</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">drawRect</span><span class="p">:(</span><span class="n">CGRect</span><span class="p">)</span><span class="nv">rect</span> <span class="p">{</span>
+    <span class="p">[</span><span class="n">self</span> <span class="nf">setImage</span><span class="p">:[</span><span class="n">UIImage</span> <span class="nf">imageNamed</span><span class="p">:</span><span class="s">@"circle"</span><span class="p">]</span> <span class="nf">forState</span><span class="p">:</span><span class="n">UIControlStateNormal</span><span class="p">];</span>
+    <span class="p">[</span><span class="n">self</span> <span class="nf">setImage</span><span class="p">:[</span><span class="n">UIImage</span> <span class="nf">imageNamed</span><span class="p">:</span><span class="s">@"circle-selected"</span><span class="p">]</span> <span class="nf">forState</span><span class="p">:</span><span class="n">UIControlStateHighlighted</span><span class="p">];</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+<p>In our initializer we setup our view to take the frame of the class’s view that is instantiating the button and then setup the <code class="highlighter-rouge">UILabel</code> which will be displayed in the center of the button serving as its title label. The call to <code class="highlighter-rouge">addTarget:</code> links the button with its action, the selector, that will be passed in as a sender argument (the button itself).</p>
+
+<p>What we have so far should appear as the screenshot below. Given that we have two <code class="highlighter-rouge">@3x</code> images named <code class="highlighter-rouge">circle</code> and <code class="highlighter-rouge">circle-selected</code>.</p>
+
+<p><img src="//kiko.gfjaru.com/assets/img/flatiron/circle.png" alt="" /></p>
+
+<p>And when the button is selected by our user…</p>
+
+<p><img src="//kiko.gfjaru.com/assets/img/flatiron/circle-selected.png" alt="" /></p>
+
+<p>Now it’s time to add some functionality. We’ll start by creating our own delegate for our custom button. All we need to do is make a few additions in our button’s header file like so.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="k">@class</span> <span class="nc">RCButton</span><span class="p">;</span>
+
+<span class="k">@protocol</span> <span class="nc">RCButtonDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span>
+
+<span class="o">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">buttonWasSelected</span><span class="o">:</span><span class="p">(</span><span class="n">RCButton</span> <span class="o">*</span><span class="p">)</span><span class="n">button</span><span class="p">;</span>
+
+<span class="k">@end</span>
+
+<span class="k">@interface</span> <span class="nc">RCButton</span> <span class="p">:</span> <span class="nc">UIButton</span> <span class="o">&lt;</span><span class="n">RCButtonDelegate</span><span class="o">&gt;</span>
+
+<span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">readonly</span><span class="p">)</span> <span class="n">UILabel</span> <span class="o">*</span><span class="n">textLabel</span><span class="p">;</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">weak</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n">RCButtonDelegate</span><span class="o">&gt;</span> <span class="n">delegate</span><span class="p">;</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithFrame</span><span class="p">:(</span><span class="n">CGRect</span><span class="p">)</span><span class="nv">frame</span> <span class="nf">text</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">text</span><span class="p">;</span>
+
+<span class="k">@end</span>
+</code></pre>
+</div>
+<p>We reference the current class through <code class="highlighter-rouge">@class</code> so that we may access the <code class="highlighter-rouge">RCButton</code> argument in the <code class="highlighter-rouge">buttonWasSelected:</code> method since our delegate is declared above our interface. To make use of this delegate, we need to write out the method bodies for our delegate functions.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>#pragma mark - Delegate
+
+- (void)buttonWasSelected:(RCButton *)button {
+    [self.delegate buttonWasSelected:button];
+}
+</code></pre>
+</div>
+<p>We pass the <code class="highlighter-rouge">RCButton</code> argument to the delegate’s method which will be sent to the class that conforms to our delegate. Let’s implement our delegate methods in a separate view controller class where we create an instance of our button.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="cp">#import &lt;UIKit/UIKit.h&gt;
+#import "RCButton.h"
+</span>
+<span class="k">@interface</span> <span class="nc">ViewController</span> <span class="p">:</span> <span class="nc">UIViewController</span> <span class="o">&lt;</span><span class="n">RCButtonDelegate</span><span class="o">&gt;</span>
+
+<span class="k">@end</span>
+</code></pre>
+</div>
+
+<div class="highlighter-rouge"><pre class="highlight"><code><span class="k">@interface</span> <span class="nc">ViewController</span> <span class="p">()</span>
+
+<span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">strong</span><span class="p">)</span> <span class="n">IBOutlet</span> <span class="n">UILabel</span> <span class="o">*</span><span class="n">label</span><span class="p">;</span>
+<span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">,</span> <span class="n">assign</span><span class="p">)</span> <span class="n">NSUInteger</span> <span class="n">counter</span><span class="p">;</span>
+
+<span class="k">@end</span>
+
+<span class="k">@implementation</span> <span class="nc">ViewController</span>
+
+<span class="cp">#pragma mark - RCButtonDelegate
+</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">buttonWasSelected</span><span class="p">:(</span><span class="n">RCButton</span> <span class="o">*</span><span class="p">)</span><span class="nv">button</span> <span class="p">{</span>
+    <span class="n">self</span><span class="p">.</span><span class="n">label</span><span class="p">.</span><span class="n">text</span> <span class="o">=</span> <span class="p">[</span><span class="n">NSString</span> <span class="nf">stringWithFormat</span><span class="p">:</span><span class="s">@"Pressed '%@' %lu times!"</span><span class="p">,</span> <span class="n">button</span><span class="p">.</span><span class="n">textLabel</span><span class="p">.</span><span class="n">text</span><span class="p">,</span> <span class="n">self</span><span class="p">.</span><span class="n">counter</span><span class="o">++</span><span class="p">];</span>
+<span class="p">}</span>
+
+<span class="cp">#pragma mark - View
+</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">viewDidLoad</span> <span class="p">{</span>
+    <span class="p">[</span><span class="n">super</span> <span class="nf">viewDidLoad</span><span class="p">];</span>
+    
+    <span class="n">RCButton</span> <span class="o">*</span><span class="n">button</span> <span class="o">=</span> <span class="p">[[</span><span class="n">RCButton</span> <span class="nf">alloc</span><span class="p">]</span> <span class="nf">initWithFrame</span><span class="p">:</span><span class="n">self</span><span class="p">.</span><span class="n">view</span><span class="p">.</span><span class="n">frame</span> <span class="nf">text</span><span class="p">:</span><span class="s">@"Hello"</span><span class="p">];</span>
+    <span class="n">button</span><span class="p">.</span><span class="n">center</span> <span class="o">=</span> <span class="n">self</span><span class="p">.</span><span class="n">view</span><span class="p">.</span><span class="n">center</span><span class="p">;</span>
+    <span class="n">button</span><span class="p">.</span><span class="n">delegate</span> <span class="o">=</span> <span class="n">self</span><span class="p">;</span>
+    
+    <span class="p">[</span><span class="n">self</span><span class="p">.</span><span class="n">view</span> <span class="nf">addSubview</span><span class="p">:</span><span class="n">button</span><span class="p">];</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+<p>Nice and simple. Here’s what our UI looks like now after we add a <code class="highlighter-rouge">UILabel</code> to the view in order to capture the amount of button presses in a formatted string.</p>
+
+<p><img src="//kiko.gfjaru.com/assets/img/flatiron/view.png" alt="" /></p>
+
+<p>When we press our custom button, the selector that was declared in the custom class is called which then passes the method call to the delegate, then the delegate to us. We now have access to any public property on the <code class="highlighter-rouge">RCButton</code> argument.</p>
+
+</div>
+
+  </div>
+</body>
+</html>
