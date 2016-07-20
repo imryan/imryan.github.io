@@ -33,6 +33,8 @@ nav:
     href:           "//twitter.com/ryancohen"
   - name:           "LinkedIn"
     href:           "//linkedin.com/in/imryan"
+  - name:           "Email"
+    href:           "mailto:notryancohen@gmail.com"
 
 # Sass
 sass:
