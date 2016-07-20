@@ -7,10 +7,10 @@ name:               "Ryan Cohen"
 description:        "talking to myself online"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//kiko.gfjaru.com"
-author:             "gfjaru"
+url:                "//deadryan.xyz"
+author:             "Ryan Cohen"
 twitter:
-  username:         "gfjaru"
+  username:         "ryancohen"
 #facebook:
 #  app_id:           1234
 #    publisher:      1234
@@ -26,9 +26,9 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+    href:           "//deadryan.xyz/about/"
+  # - name:           "Download"
+  #   href:           "//github.com/gfjaru/Kiko/releases"
 
 # Sass
 sass:
