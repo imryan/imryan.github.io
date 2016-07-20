@@ -27,8 +27,12 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "//deadryan.xyz/about/"
-  # - name:           "Download"
-  #   href:           "//github.com/gfjaru/Kiko/releases"
+  - name:           "Github"
+    href:           "//github.com/imryan"
+  - name:           "Twitter"
+    href:           "//twitter.com/ryancohen"
+  - name:           "LinkedIn"
+    href:           "//linkedin.com/in/imryan"
 
 # Sass
 sass:
