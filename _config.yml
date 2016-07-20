@@ -5,6 +5,7 @@ description:         'My webspot'
 url:                 http://deadryan.xyz
 baseurl:             ''
 paginate:            5
+markdown: 	      maruku
 
 # About/contact
 author:
