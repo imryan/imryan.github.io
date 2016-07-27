@@ -2,8 +2,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
 	<channel>
 		<title>Ryan Cohen</title>
-		<link>//kiko.gfjaru.com</link>
-		<atom:link href="//kiko.gfjaru.com/feed.xml" rel="self" type="application/rss+xml" />
+		<link>//deadryan.xyz</link>
+		<atom:link href="//deadryan.xyz/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Parsing JSON with AFNetworking</title>
@@ -176,11 +176,11 @@ Returns all stations where a train arrives at the given time. (24h time)
 &lt;p&gt;And voila, we have a complete and unique array of our &lt;code class=&quot;highlighter-rouge&quot;&gt;Station&lt;/code&gt; objects with each property filled and accessible. Try it out! Also, the method signature could be altered to take in an &lt;code class=&quot;highlighter-rouge&quot;&gt;NSDate&lt;/code&gt; object that’s formatted through an &lt;code class=&quot;highlighter-rouge&quot;&gt;NSDateFormatter&lt;/code&gt; for prettiness. I used &lt;code class=&quot;highlighter-rouge&quot;&gt;NSString&lt;/code&gt; arguments for simplicity in this case.&lt;/p&gt;
 
 &lt;p&gt;Here’s an example project I’ve built using this API wrapper:
-&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/parsing-json/example.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/parsing-json/example.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Wed, 20 Jul 2016 00:00:00 -0400</pubDate>
-				<link>//kiko.gfjaru.com/2016/07/20/parsing-json/</link>
-				<guid isPermaLink="true">//kiko.gfjaru.com/2016/07/20/parsing-json/</guid>
+				<link>//deadryan.xyz/2016/07/20/parsing-json/</link>
+				<guid isPermaLink="true">//deadryan.xyz/2016/07/20/parsing-json/</guid>
 			</item>
 		
 			<item>
@@ -210,19 +210,19 @@ Returns all stations where a train arrives at the given time. (24h time)
 
 &lt;p&gt;Next, we would then connect each tile button in our Storyboard just as we would any other outlet:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/collections/collection-outlets.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/collections/collection-outlets.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;We can see that each tile is connected to our outlet collection.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/collections/tile-outlets.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/collections/tile-outlets.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And we’d do just the same for our actions:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/collections/actions.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/collections/actions.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;So, all together our view should look something like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/collections/view.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/collections/view.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now it’s time to make it work. First, let’s write a helper method that can take in a &lt;code class=&quot;highlighter-rouge&quot;&gt;UIColor&lt;/code&gt; parameter and return its name as a &lt;code class=&quot;highlighter-rouge&quot;&gt;NSString&lt;/code&gt;.&lt;/p&gt;
 
@@ -281,11 +281,11 @@ Returns all stations where a train arrives at the given time. (24h time)
 
 &lt;p&gt;Without further ado here is our somewhat-complete game of Simon:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/collections/colors.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/collections/colors.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Sun, 10 Jul 2016 00:00:00 -0400</pubDate>
-				<link>//kiko.gfjaru.com/2016/07/10/condensing-ib-2/</link>
-				<guid isPermaLink="true">//kiko.gfjaru.com/2016/07/10/condensing-ib-2/</guid>
+				<link>//deadryan.xyz/2016/07/10/condensing-ib-2/</link>
+				<guid isPermaLink="true">//deadryan.xyz/2016/07/10/condensing-ib-2/</guid>
 			</item>
 		
 			<item>
@@ -347,11 +347,11 @@ Returns all stations where a train arrives at the given time. (24h time)
 
 &lt;p&gt;What we have so far should appear as the screenshot below. Given that we have two &lt;code class=&quot;highlighter-rouge&quot;&gt;@3x&lt;/code&gt; images named &lt;code class=&quot;highlighter-rouge&quot;&gt;circle&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;circle-selected&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/circle.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/circle.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;And when the button is selected by our user…&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/circle-selected.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/circle-selected.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now it’s time to add some functionality. We’ll start by creating our own delegate for our custom button. All we need to do is make a few additions in our button’s header file like so.&lt;/p&gt;
 
@@ -423,13 +423,13 @@ Returns all stations where a train arrives at the given time. (24h time)
 &lt;/div&gt;
 &lt;p&gt;Nice and simple. Here’s what our UI looks like now after we add a &lt;code class=&quot;highlighter-rouge&quot;&gt;UILabel&lt;/code&gt; to the view in order to capture the amount of button presses in a formatted string.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/flatiron/view.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/flatiron/view.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;When we press our custom button, the selector that was declared in the custom class is called which then passes the method call to the delegate, then the delegate to us. We now have access to any public property on the &lt;code class=&quot;highlighter-rouge&quot;&gt;RCButton&lt;/code&gt; argument.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 19 Jun 2016 00:00:00 -0400</pubDate>
-				<link>//kiko.gfjaru.com/2016/06/19/custom-ui/</link>
-				<guid isPermaLink="true">//kiko.gfjaru.com/2016/06/19/custom-ui/</guid>
+				<link>//deadryan.xyz/2016/06/19/custom-ui/</link>
+				<guid isPermaLink="true">//deadryan.xyz/2016/06/19/custom-ui/</guid>
 			</item>
 		
 			<item>
@@ -439,8 +439,8 @@ Returns all stations where a train arrives at the given time. (24h time)
 &lt;p&gt;&lt;img src=&quot;http://deadryan.xyz/assets/img/computer.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </description>
 				<pubDate>Mon, 13 Jun 2016 00:00:00 -0400</pubDate>
-				<link>//kiko.gfjaru.com/2016/06/13/demo/</link>
-				<guid isPermaLink="true">//kiko.gfjaru.com/2016/06/13/demo/</guid>
+				<link>//deadryan.xyz/2016/06/13/demo/</link>
+				<guid isPermaLink="true">//deadryan.xyz/2016/06/13/demo/</guid>
 			</item>
 		
 			<item>
@@ -449,13 +449,13 @@ Returns all stations where a train arrives at the given time. (24h time)
 
 &lt;p&gt;In the meantime, here is a picture of a cute pigeon begging for my bread in City Hall Park the other day.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;//kiko.gfjaru.com/assets/img/bird.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//deadryan.xyz/assets/img/bird.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I hope you enjoyed because there are many more to come!&lt;/p&gt;
 </description>
 				<pubDate>Sat, 26 Mar 2016 00:00:00 -0400</pubDate>
-				<link>//kiko.gfjaru.com/2016/03/26/welcome/</link>
-				<guid isPermaLink="true">//kiko.gfjaru.com/2016/03/26/welcome/</guid>
+				<link>//deadryan.xyz/2016/03/26/welcome/</link>
+				<guid isPermaLink="true">//deadryan.xyz/2016/03/26/welcome/</guid>
 			</item>
 		
 	</channel>
