@@ -6,7 +6,6 @@
 name:               "Ryan Cohen"
 description:        "talking to myself online"
 
-# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 url:                "//deadryan.xyz"
 author:             "Ryan Cohen"
 twitter:
@@ -27,6 +26,8 @@ markdown:           kramdown
 nav:
   - name:           "About"
     href:           "//deadryan.xyz/about/"
+  - name:           "Resume"
+    href:           "//deadryan.xyz/resume/"
   - name:           "Projects"
     href:           "//deadryan.xyz/projects/"
   - name:           "Github"
