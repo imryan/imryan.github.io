@@ -1,8 +1,11 @@
 title: Ryan Cohen
 url: "http://ryans.host"
-baseurl: "/researcher"
+baseurl: "/"
 
 markdown: kramdown
+
+tracking_id: #
+
 sass:
     style: compressed
     sass_dir: _sass
