@@ -1,60 +1,11 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
+title: Ryan Cohen
+url: "http://ryans.host"
+baseurl: "/researcher"
 
-# Basic
-name:               "Ryan Cohen"
-description:        "talking to myself online"
+markdown: kramdown
 
-url:                "//deadryan.xyz"
-author:             "Ryan Cohen"
-twitter:
-  username:         "ryancohen"
-#facebook:
-#  app_id:           1234
-#    publisher:      1234
+tracking_id: #
 
-# URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title/
-
-# Markdown
-markdown:           kramdown
-
-# Navigation
-nav:
-  - name:           "About"
-    href:           "//deadryan.xyz/about/"
-  - name:           "Resume"
-    href:           "//deadryan.xyz/resume/resume.pdf"
-  - name:           "Projects"
-    href:           "//deadryan.xyz/projects/"
-  - name:           "Github"
-    href:           "//github.com/imryan"
-  - name:           "LinkedIn"
-    href:           "//linkedin.com/in/imryan"
-  - name:           "Email"
-    href:           "mailto:notryancohen@gmail.com"
-
-# Sass
 sass:
-  style:            :compressed
-
-# Scopes
-defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
-
-gems:
-  - jekyll-seo-tag
+    style: compressed
+    sass_dir: _sass
