@@ -3,7 +3,7 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:notryancohen@gmail.com)
+* Email: [notryancohen@gmail.com](mailto:notryancohen@gmail.com)
 
 ---
 
