@@ -1,29 +1,22 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta charset="UTF-8">
-  <title>Google Maps Polygon Coordinates Tool</title>
-
-
-
-      <link rel="stylesheet" href="css/style.css">
-
-
+  <title>Polymapper</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-<body onload="initialize()">
-  <!-- <h3>Drag or re-shape for coordinates to display below (<a href="https://github.com/jeremy-hawes/google-maps-coordinates-polygon-tool">Github</a>)</h3>
-  <h3><a href="http://codepen.io/jhawes/blog/creating-a-real-estate-polygon-tool">See blog post</a></h3> -->
-  <div id="map-canvas"></div>
-  <div class="lngLat"><span class="one">Lat</span><span class="two">,Lng</span></div>
-</body>
-<button id="clipboard-btn" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Copy to Clipboard</button>
-<textarea id="info"></textarea>
-  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false'></script>
-
-    <script src="js/index.js"></script>
-
+  <body onload="initialize()">
+    <!-- <h3>Drag or re-shape for coordinates to display below (<a href="https://github.com/jeremy-hawes/google-maps-coordinates-polygon-tool">Github</a>)</h3>
+    <h3><a href="http://codepen.io/jhawes/blog/creating-a-real-estate-polygon-tool">See blog post</a></h3> -->
+    <div id="map-canvas"></div>
+    <div class="title"><span>Paste in a list of coordinates (lat, lon)</span></div>
+  </body>
+  <!-- <button id="generate-button" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Generate</button> -->
+  <textarea id="input"></textarea>
+  <textarea id="info" readonly></textarea>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBboxOEXn4rqMb25nWZwOJC4IbYNSUuxD4&callback=initMap"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
