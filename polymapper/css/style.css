@@ -25,7 +25,7 @@ code {
 
 #map-canvas {
   width: auto;
-  height: 500px;
+  height: 600px;
 }
 .title, .output {
   color: #000;
@@ -35,10 +35,17 @@ code {
 
 #generate-button {
   float: left;
-  margin-right: 10px;
-  margin-top: 170px;
-  padding: 6px 6px;
+  margin-left: 20px;
+  padding: 5px 10px;
   position: absolute;
+
+  background-color: white;
+  color: black;
+  outline: none;
+}
+
+.syntax-selector {
+  border-color: grey;
 }
 
 #info, #input {
@@ -56,5 +63,5 @@ code {
 #info, #input, .title, .output {
   font-size: 12px;
   padding-top: 10px;
-  width: 350px;
+  width: 400px;
 }

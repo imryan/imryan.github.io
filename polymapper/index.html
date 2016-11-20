@@ -12,10 +12,14 @@
     <h3><a href="http://codepen.io/jhawes/blog/creating-a-real-estate-polygon-tool">See blog post</a></h3> -->
     <div id="map-canvas"></div>
     <div class="title"><span>Paste in a list of coordinates in <code>lat,lon</code> format.</span></div>
+    <textarea id="input"></textarea>
+    <textarea id="info" readonly></textarea>
+    <select id="syntax-selector">
+      <option value="objc">CLLocationCoordinate2D (Obj-C)</option>
+      <!-- <option value="android">Location (Android)</option> -->
+    </select>
+    <button id="generate-button" onclick="generate()">Generate</button>
   </body>
-  <textarea id="input"></textarea>
-  <button id="generate-button" onclick="generate()">Generate</button>
-  <textarea id="info" readonly></textarea>
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBboxOEXn4rqMb25nWZwOJC4IbYNSUuxD4"></script>
   <script src="js/index.js"></script>
 </body>
