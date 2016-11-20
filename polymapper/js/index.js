@@ -7,6 +7,7 @@
 var map;
 var polygon;
 var coordinates = []
+var platform = 'ios'
 
 function initialize() {
   var center = new google.maps.LatLng(40.7272, -73.9941);
@@ -14,14 +15,18 @@ function initialize() {
   var mapOptions = {
     zoom: 12,
     center: center,
+    streetViewControl: false,
     mapTypeId: google.maps.MapTypeId.RoadMap
   };
 
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  google.maps.event.addListener(polygon.getPath(), "insert_at", getPolygonCoords);
-  google.maps.event.addListener(polygon.getPath(), "set_at", getPolygonCoords);
+  google.maps.event.addListener(polygon.getPath(), "insert_at", getSnippet);
+  google.maps.event.addListener(polygon.getPath(), "set_at", getSnippet);
 
   drawMap(coordinates);
+
+  // var selector = document.getElementById('syntax-selector');
+  // var item = selector.options[0].text;
 }
 
 function drawMap(coordinates) {
@@ -42,8 +47,8 @@ function drawMap(coordinates) {
 
   polygon.setMap(map);
 
-  google.maps.event.addListener(polygon.getPath(), "insert_at", getPolygonCoords);
-  google.maps.event.addListener(polygon.getPath(), "set_at", getPolygonCoords);
+  google.maps.event.addListener(polygon.getPath(), "insert_at", getSnippet);
+  google.maps.event.addListener(polygon.getPath(), "set_at", getSnippet);
 }
 
 function getPolygonCoords() {
@@ -56,6 +61,34 @@ function getPolygonCoords() {
   }
 
   document.getElementById('info').innerHTML = htmlStr + "};"
+}
+
+function getSnippet() {
+  var len = polygon.getPath().getLength();
+
+  var e = document.getElementById("syntax-selector");
+  platform = e.options[e.selectedIndex].value;
+
+  /* iOS */
+  if (platform == 'ios') {
+    var htmlStr = "CLLocationCoordinate2D coords[] = {\n"
+
+    for (var i = 0; i < len; i++) {
+      htmlStr += "CLLocationCoordinate2DMake(" + polygon.getPath().getAt(i).toUrlValue(5) + "),\n";
+    }
+
+    document.getElementById('info').innerHTML = htmlStr + "};"
+
+  /* Android */
+  } else if (platform == 'android') {
+    htmlStr = "List<Point> coordinates = new ArrayList<>();\n";
+
+    for (var i = 0; i < len; i++) {
+      htmlStr += "coordinates.add(new Point(" + polygon.getPath().getAt(i).toUrlValue(5) + "));\n";
+    }
+
+    document.getElementById('info').innerHTML = htmlStr;
+  }
 }
 
 function generate() {
