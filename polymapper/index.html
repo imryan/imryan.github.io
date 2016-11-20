@@ -14,7 +14,7 @@
     <div class="title"><span>Paste in a list of coordinates in <code>lat,lon</code> format.</span></div>
     <textarea id="input"></textarea>
     <textarea id="info" readonly></textarea>
-    <select id="syntax-selector">
+    <select id="syntax-selector" onchange="dropdownChanged()">
       <option value="ios">CLLocationCoordinate2D (Obj-C)</option>
       <option value="android">Location (Android)</option>
     </select>
