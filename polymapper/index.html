@@ -11,12 +11,12 @@
     <!-- <h3>Drag or re-shape for coordinates to display below (<a href="https://github.com/jeremy-hawes/google-maps-coordinates-polygon-tool">Github</a>)</h3>
     <h3><a href="http://codepen.io/jhawes/blog/creating-a-real-estate-polygon-tool">See blog post</a></h3> -->
     <div id="map-canvas"></div>
-    <div class="title"><span>Paste in a list of coordinates (lat, lon)</span></div>
+    <div class="title"><span>Paste in a list of coordinates in <code>lat,lon</code> format.</span></div>
   </body>
-  <!-- <button id="generate-button" onclick="copyToClipboard(document.getElementById('info').innerHTML)">Generate</button> -->
   <textarea id="input"></textarea>
+  <button id="generate-button" onclick="generate()">Generate</button>
   <textarea id="info" readonly></textarea>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBboxOEXn4rqMb25nWZwOJC4IbYNSUuxD4&callback=initMap"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBboxOEXn4rqMb25nWZwOJC4IbYNSUuxD4"></script>
   <script src="js/index.js"></script>
 </body>
 </html>

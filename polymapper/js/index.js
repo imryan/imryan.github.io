@@ -1,104 +1,37 @@
-//var myPolygon;
+// Polymapper
+//
+// Originally forked from Jeremy Hawes:
+// https://github.com/jeremy-hawes/google-maps-coordinates-polygon-tool
+//
+
+var map;
+var polygon;
+var coordinates = []
+
 function initialize() {
-  // Map Center
-  var myLatLng = new google.maps.LatLng(33.5190755, -111.9253654);
-  // General Options
+  var center = new google.maps.LatLng(40.7272, -73.9941);
+
   var mapOptions = {
-    zoom: 1,
-    center: myLatLng,
+    zoom: 12,
+    center: center,
     mapTypeId: google.maps.MapTypeId.RoadMap
   };
-  var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-  var lat = [
-    -85.05113,
-23.7046,  
-26.56108, 
-24.84848, 
-30.03519, 
-39.44212, 
-38.88248, 
-39.73676, 
-37.94673, 
-35.41384, 
-37.52935, 
-38.35857, 
-42.37072, 
-49.08106, 
-42.96655, 
-41.66286, 
-43.5917,  
-47.23076, 
-48.31997, 
-53.87343, 
-47.71211, 
-48.45765, 
-42.82541, 
-49.89463, 
-62.29659, 
-62.38428, 
-62.34961, 
-67.70887, 
-72.9578,  
-76.15828, 
-78.90354, 
-85.04332, 
-85.03594, 
-77.84185, 
-46.25585, 
--0.36365, 
--50.47289,
--84.88472,
--84.87796
-  ];
-  var lon = [
-      55.19531,
-59.93963,
- 56.30399,
- 52.76026,
- 48.50914,
- 43.92467,
- 46.35132,
- 47.9718,
- 57.92827,
- 62.80426,
- 65.45381,
- 71.05743,
- 80.67261,
- 87.03918,
- 96.69304,
- 104.75745,
-112.10303,
- 120.05859,
- 114.76902,
- 123.39581,
- 131.4276,
- 134.89783,
- 133.90373,
- 157.19238,
- 177.07651,
- 177.98894,
- 179.82422,
- 179.47132,
--179.56088,
- 176.70427,
- 176.48504,
- 176.66282,
- 9.93164,
- 8.26172,
- -47.28516,
- -23.27402,
-  -18.95039,
-  -17.08769,
-  36.10313
-  ];
+  map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+  google.maps.event.addListener(polygon.getPath(), "insert_at", getPolygonCoords);
+  google.maps.event.addListener(polygon.getPath(), "set_at", getPolygonCoords);
 
-  var coords = buildCoords(lat, lon);
+  drawMap(coordinates);
+}
 
-  // Styling & Controls
-  myPolygon = new google.maps.Polygon({
-    paths: coords,
-    draggable: true, // turn off if it gets annoying
+function drawMap(coordinates) {
+  if (!coordinates) {
+    coordinates = [];
+  }
+
+  polygon = new google.maps.Polygon({
+    paths: coordinates,
+    draggable: true,
     editable: true,
     strokeColor: '#FF0000',
     strokeOpacity: 0.8,
@@ -107,32 +40,36 @@ function initialize() {
     fillOpacity: 0.35
   });
 
-  myPolygon.setMap(map);
-  //google.maps.event.addListener(myPolygon, "dragend", getPolygonCoords);
-  google.maps.event.addListener(myPolygon.getPath(), "insert_at", getPolygonCoords);
-  //google.maps.event.addListener(myPolygon.getPath(), "remove_at", getPolygonCoords);
-  google.maps.event.addListener(myPolygon.getPath(), "set_at", getPolygonCoords);
+  polygon.setMap(map);
+
+  google.maps.event.addListener(polygon.getPath(), "insert_at", getPolygonCoords);
+  google.maps.event.addListener(polygon.getPath(), "set_at", getPolygonCoords);
 }
 
-function buildCoords(lat, lon) {
-  var coordsArray = [];
-  for (var i = 0; i < lat.length; i++) {
-    var coord = new google.maps.LatLng(lat[i], lon[i]);
-    coordsArray.push(coord);
-  }
-  return coordsArray;
-}
-
-//Display Coordinates below map
 function getPolygonCoords() {
-  var len = myPolygon.getPath().getLength();
-  var htmlStr = "";
+  var len = polygon.getPath().getLength();
+  var htmlStr = "CLLocationCoordinate2D coords[] = {\n"
+
   for (var i = 0; i < len; i++) {
-    htmlStr += '@"' + myPolygon.getPath().getAt(i).toUrlValue(5) + '",\n';
+    htmlStr += "CLLocationCoordinate2DMake(" + polygon.getPath().getAt(i).toUrlValue(5) + "),\n";
+    console.log(polygon.getPath().getAt(i).toUrlValue(5));
   }
-  document.getElementById('info').innerHTML = htmlStr;
+
+  document.getElementById('info').innerHTML = htmlStr + "};"
 }
 
-function copyToClipboard(text) {
-  window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+function generate() {
+  var text = document.getElementById('input').value.split('\n');
+
+  for (var i = 0; i < text.length; i++) {
+    var lat = parseFloat(text[i].split(',')[0]);
+    var lon = parseFloat(text[i].split(',')[1]);
+
+    console.log(lat + ', ' + lon);
+    // Check if valid lat,lon
+    var coordinate = new google.maps.LatLng(lat, lon);
+
+    coordinates.push(coordinate);
+  }
+  drawMap(coordinates);
 }
