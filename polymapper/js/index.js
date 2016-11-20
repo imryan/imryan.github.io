@@ -38,10 +38,10 @@ function drawMap(coordinates) {
     paths: coordinates,
     draggable: true,
     editable: true,
-    strokeColor: '#FF0000',
+    strokeColor: '#27ae60',
     strokeOpacity: 0.8,
     strokeWeight: 2,
-    fillColor: '#FF0000',
+    fillColor: '#2ecc71',
     fillOpacity: 0.35
   });
 
