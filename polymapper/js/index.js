@@ -72,12 +72,12 @@ function getSnippet() {
     document.getElementById('info').innerHTML = htmlStr;
 
   } else if (platform == 'python') {
-    htmlStr = "coords = []\n";
+    htmlStr = "coords = [\n";
 
     for (var i = 0; i < len; i++) {
-      htmlStr += "coords.append(tuple([" + polygon.getPath().getAt(i).toUrlValue(5) + "]))\n";
+      htmlStr += "tuple([" + polygon.getPath().getAt(i).toUrlValue(5) + "]),\n";
     }
-    document.getElementById('info').innerHTML = htmlStr;
+    document.getElementById('info').innerHTML = htmlStr + "]"
   }
 }
 
