@@ -6,6 +6,7 @@
 
 var map;
 var polygon;
+var polygons = [];
 var coordinates = [];
 
 function initialize() {
@@ -20,13 +21,12 @@ function initialize() {
 
   // Temp
   document.getElementById('input').innerHTML = '40.71877,-74.0003\n40.71461,-73.9894\n40.72542,-73.99292';
-
   map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-  google.maps.event.addListener(polygon.getPath(), "insert_at", getSnippet);
-  google.maps.event.addListener(polygon.getPath(), "set_at", getSnippet);
 }
 
 function drawMap() {
+  clearMap();
+
   polygon = new google.maps.Polygon({
     paths: coordinates,
     draggable: true,
@@ -39,6 +39,7 @@ function drawMap() {
   });
 
   polygon.setMap(map);
+  polygons.push(polygon);
 
   google.maps.event.addListener(polygon.getPath(), "insert_at", getSnippet);
   google.maps.event.addListener(polygon.getPath(), "set_at", getSnippet);
@@ -55,10 +56,10 @@ function getSnippet() {
   var platform = e.options[e.selectedIndex].value;
 
   if (platform == 'ios') {
-    var htmlStr = "CLLocationCoordinate2D coords[] = {\n"
+    var htmlStr = "CLLocationCoordinate2D coords[] = {\n";
 
     for (var i = 0; i < len; i++) {
-      htmlStr += "CLLocationCoordinate2DMake(" + polygon.getPath().getAt(i).toUrlValue(5) + "),\n";
+      htmlStr += "CLLocationCoordinate2DMake(" + polygon.getPath().getAt(i).toUrlValue(5) + ")\n";
     }
     document.getElementById('info').innerHTML = htmlStr + "};";
 
@@ -67,6 +68,14 @@ function getSnippet() {
 
     for (var i = 0; i < len; i++) {
       htmlStr += "coordinates.add(new Point(" + polygon.getPath().getAt(i).toUrlValue(5) + "));\n";
+    }
+    document.getElementById('info').innerHTML = htmlStr;
+
+  } else if (platform == 'python') {
+    htmlStr = "coords = []\n";
+
+    for (var i = 0; i < len; i++) {
+      htmlStr += "coords.append(tuple([" + polygon.getPath().getAt(i).toUrlValue(5) + "]))\n";
     }
     document.getElementById('info').innerHTML = htmlStr;
   }
@@ -90,4 +99,12 @@ function generate() {
 
 function dropdownChanged() {
   getSnippet();
+}
+
+function clearMap() {
+  for (var i = 0; i < polygons.length; i++) {
+    polygons[i].setMap(null);
+  }
+
+  polygons = [];
 }
