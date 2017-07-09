@@ -1,3 +1,6 @@
+- name: "Tapes"
+  link: "tapes"
+
 - name: "Tools"
   link: "tools"
 

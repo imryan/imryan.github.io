@@ -8,6 +8,6 @@ layout: default
 
 The entry point of all there is
 
-## Server Status
+<!-- ## Server Status
 
-<script src="server_ping.js"></script>
+<script src="server_ping.js"></script> -->
