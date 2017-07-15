@@ -13,5 +13,7 @@ layout: default
 
 1. [Postmates iOS library updated](https://github.com/imryan/postmates-ios)
 2. [Datakick iOS library](https://github.com/imryan/datakick-ios)
-3. [Compound](https://github.com/imryan/compound)
-4. [Validator.pizza iOS library](https://github.com/imryan/validatorpizza-ios)
+3. [Validator.pizza iOS library](https://github.com/imryan/validatorpizza-ios)
+4. [Compound](https://github.com/imryan/compound)
+5. [Quo](https://github.com/taptics/quo-ios)
+5. [Quo API](https://github.com/taptics/quo-ios-wrapper)
