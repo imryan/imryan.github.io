@@ -16,4 +16,3 @@ layout: default
 3. [Validator.pizza iOS library](https://github.com/imryan/validatorpizza-ios)
 4. [Compound](https://github.com/imryan/compound)
 5. [Quo](https://github.com/taptics/quo-ios)
-5. [Quo API](https://github.com/taptics/quo-ios-wrapper)
