@@ -7,9 +7,9 @@ layout: default
 <img class="profile-picture" src="default.jpg">
 
 1. [Polymapper](http://ryans.host/polymapper)
-2. ...
+2. [Endpoints](https://github.com/imryan/endpoints)
 
-# Open source
+## Open source
 
 1. [Postmates iOS library updated](https://github.com/imryan/ios-postmates)
 2. [Datakick iOS library](https://github.com/imryan/datakick-ios)
