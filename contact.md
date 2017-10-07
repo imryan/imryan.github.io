@@ -4,7 +4,9 @@ is_contact: true
 ---
 
 * Email: [notryancohen @ gmail.com](mailto:notryancohen@gmail.com)
-* Bitcoin: `1JQF8fUnvmNrEYteVJWaCfg8YDMY1tjCa9`
+* BTC: `154K6EpyoMtL71vynKFPaoZPXcBvGSGZ2e`
+* ETH: `0xD43e27551C331056221Ee54F3f375408C7943e41`
+* LTC: `LMz469s7kKjtmpCWgYcuThWKATqFeZuP6P`
 
 ---
 
