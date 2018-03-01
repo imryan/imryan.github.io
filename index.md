@@ -2,11 +2,8 @@
 layout: default
 ---
 
-## About
+## Hello world
 
 <img class="profile-picture" src="default.jpg">
 
-The entry point of all there is
-
-<!-- ## Server Status
-<script src="server_ping.js"></script> -->
+Welcome to my site, you've made a great decision today
