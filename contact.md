@@ -4,12 +4,13 @@ is_contact: true
 ---
 
 * Email: [notryancohen @ gmail.com](mailto:notryancohen@gmail.com)
+* Resume: [/resume](http://ryans.online/resume.html)
 * Crypto: [walletlist.me/@ryan](https://walletlist.me/@ryan)
 
 ---
 
 ## Social
 
-1. [Twitter](https://twitter.com/ryancohen)
-3. [GitHub](https://github.com/imryan)
-4. [Keybase](https://keybase.io/imryan)
+* [Twitter](https://twitter.com/ryancohen)
+* [GitHub](https://github.com/imryan)
+* [Keybase](https://keybase.io/imryan)
