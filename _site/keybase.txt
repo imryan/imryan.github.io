@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/imryan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://ryans.host
+  * I am imryan (https://keybase.io/imryan) on keybase.
+  * I have a public key with fingerprint 9852 C9DD 92B9 B250 F4C3  0F02 E52E 50E8 A287 ECF4
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010197b71625d9bc2ed93bfcc8ccab2fef5db9c61bbf65994d70614bb73b69849f5b0a",
+            "fingerprint": "9852c9dd92b9b250f4c30f02e52e50e8a287ecf4",
+            "host": "keybase.io",
+            "key_id": "e52e50e8a287ecf4",
+            "kid": "010197b71625d9bc2ed93bfcc8ccab2fef5db9c61bbf65994d70614bb73b69849f5b0a",
+            "uid": "96db4e1c3aba9325796afbbac1e45019",
+            "username": "imryan"
+        },
+        "revoke": {
+            "sig_ids": [
+                "f564585b0a28d8d67f2f2381e6ac239212a85cce9e05ce7e5428d964d978bdac0f"
+            ]
+        },
+        "service": {
+            "hostname": "ryans.host",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1481574414,
+    "expire_in": 157680000,
+    "prev": "e6eacd84a7e8c0a8fae3a90c999204c5a01cac4807ecc88592840dcbce75e53e",
+    "seqno": 17,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.61
+Comment: https://keybase.io/crypto
+
+yMJnAnicrZJfaBRHHMcviUaN2AhV6EMrOEKpesbZ2ZndmcMHDeJL1bampUWNx/y9
+bGJ2L3t718SQBrQcJOpDXipYqFX7B1pBW1uFKGKKomJs8hKk1TQ+2VKkKbW0UEzT
+2cO+9bHDwrDD9/f5fuf3m2vLGjJNdW+OjgTDnw9O190emy1n3npl8TP9QESqD+T6
+QZeubXq/0qUk3xUokAPQgQ7zhe94iCgmJNKKucJISaXkAhltiBJMeo4QxiOMYeVD
+z8FC+K7wGMXMEAE5yAIThAUdF+MgTCyWUYIkU4ohwQQi0GDpQgORJvaDmnJEfS0N
+toUdUSmtsOEEL+mWILJn9idfi/cf+v85d7mGY54SWDvS5YIzFxGfedwIwaWjMbFO
+qbCk45B3a6sOuuM+HoKBLIh1JerSaVdLQcFGLoHcHmCIhwlN+YgqqjzfIINc6miP
+S+Qy5CBOiZSaaUik9jXBVsc8rJhPheISGtBu2davEsgaPO3RU+/UudRSa1oWFOMo
+iWS03553JEkxl0ZK+oqp7m0t8k8JeRGEyo7HFlR0XAqiEOQcq5RJkCIdTB3iY+zg
+LNC9xSDW+SBVEN+j0K7URlfSYXiaS0Ux9zWVkFPDtcsZlIwxBLEkHDqSS0yhHZWk
+lDBEMVRS2DsSTVwN0jv1hJFl+zYnL1imbVvIk3KswcA3V/cuyNQ1ZRoX1qfvNtO0
+ZPm/r/n9tkXzlbnx6vC2tuTrx+sPjVy8f4JfnpqeIhv/mvzj+Uftsn7+s/d+Wzj7
+ycz0vquHC1W9LvN7ttxwLrg8sGRornL8zrHrT5K2VnNmWdi5dtWpziZ54Zdr893n
+m++Oblze3ftpT2PzmqMTK5u3Hrz10s8PH+P+iXxr71zDvhcWzLZcutdeNfcO/Hr6
+Sd0HZt2iS/WvkW9Xb3nD6e08OfL33V095Z8a1xYmFpffGdgLflzzqDk69cWzu1+u
+XNwxvFlN9Rz/6sJcLnyRT37InjvdMRq0DP05dX/ptlfPDr7eNzhz9srNmQmUu1E9
+MfbupjPbxZc/XP/oZLhyvPrgyHcbxravmNz1/cetG86N71w/9A+wXGDv
+=xKuw
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/imryan
+
+==================================================================
