@@ -8,7 +8,7 @@ is_contact: true
 <img class="profile-picture" src="default.jpg">
 
 * Email: [notryancohen @ gmail.com](mailto:notryancohen@gmail.com)
-* Resume: [/resume](http://ryans.online/resume.html)
+* Resume: [/resume](http://ryans.exposed/resume.html)
 * Crypto: [walletlist.me/@ryan](https://walletlist.me/@ryan)
 
 ## Social

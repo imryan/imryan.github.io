@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="default.jpg">
 
-* [Polymapper](http://ryans.online/polymapper)
+* [Polymapper](http://ryans.exposed/polymapper)
 
 ## Open source
 
