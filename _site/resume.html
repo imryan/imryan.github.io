@@ -10,7 +10,12 @@
     <title>Ryan Cohen — Resume</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="stylesheet" href="app.css" />
-    <script>!function(e,t){const n=["main","header","section","details","summary","time","footer"];for(var o=0;o<n.length;o++)t.createElement(n[o])}(window,document);</script>
+    <script>
+        ! function(e, t) {
+            const n = ["main", "header", "section", "details", "summary", "time", "footer"];
+            for (var o = 0; o < n.length; o++) t.createElement(n[o])
+        }(window, document);
+    </script>
 </head>
 
 <body>
@@ -20,11 +25,9 @@
             <meta itemprop="alternateName" content="undefined">
             <link itemprop="sameAs" href="https://twitter.com/ryancohen">
             <link itemprop="sameAs" href="https://linkedin.com/in/imryan">
-            <ul>
-                <li><a href="http://ryans.exposed" itemprop="url">http://ryans.exposed</a></li>
-                <li><a href="http://ryans.exposed" itemprop="email">notryancohen@gmail.com</a></li>
-                <li><a href="https://github.com/imryan" itemprop="sameAs">github.com/imryan</a></li>
-            </ul>
+            <p>(908) 839-3634 | <a href="mailto:notryancohen@gmail.com">notryancohen@gmail.com</a> | <a href="https://github.com/imryan">github.com/imryan</a>
+                <br>
+            </p>
         </header>
         <section class="summary">
             <h2>Summary</h2>
@@ -36,52 +39,56 @@
                 <summary>The Flatiron School, iOS immersive
                     <time>2016 - 2016</time>
                 </summary>
-                <ul>
-                    <li>iOS immersive program, Objective-C &amp; Swift</li>
-                    <li><a href="https://github.com/learn-co-students/ios-0616-team-whale" target="_blank">WalkMore project on GitHub</a></li>
-                </ul>
-
+                <li>iOS immersive program, Objective-C &amp; Swift</li>
+                <br>
             </details>
             <details open>
                 <summary>Pace University, CS II
                     <time>2015 - 2016</time>
                 </summary>
-                <ul>
-                    <li>Attended September 2015 to April 2016</li>
-                    <li>Coursework in CS II, Java</li>
-                    <li>Was building Dormsnap, a dorm style sharing catalog</li>
-                </ul>
-
+                <li>Attended September 2015 to April 2016</li>
+                <li>Coursework in CS II, Java</li>
+                <br>
             </details>
             <details open>
                 <summary>Ocean County College, CS I
                     <time>2014 - 2015</time>
                 </summary>
-                <ul>
-                    <li>Attended night classes during my senior year of high school</li>
-                    <li>Coursework in CS I, Java</li>
-                </ul>
-
+                <li>Attended night classes during my senior year of high school</li>
+                <li>Coursework in CS I, Java</li>
             </details>
         </section>
         <section class="work">
             <h2>Work</h2>
-            <details open>
-                <summary><a href="https://shop.hellowynd.com" target="_blank">Wynd Technologies • Redwood City, CA</a>, iOS Developer
-                    <time>2018 - Present</time>
-                </summary>
-                <p>The smartest air purifier for your personal space.</p>
-                <ul>
-                    <li>Working on iOS application interfacing with the Wynd Purifier and Tracker.</li>
-                </ul>
-            </details>
             <details open>
                 <summary><a href="https://parabit.com" target="_blank">Parabit Systems • Freeport, NY</a>, iOS Developer
                     <time>2018 - Present</time>
                 </summary>
                 <p>Parabit engineers custom kiosks, access control, skimming prevention, and much more.</p>
                 <ul>
-                    <li>Working on iOS application interfacing with iBeacons to unlock bank lobby doors secured by our access control system.</li>
+                    <li>Planned &amp; developed Swift SDK for third-party interaction with the Parabit ACS</li>
+                    <li>Worked with CoreBluetooth, CoreLocation for iBeacon detection and handling</li>
+                    <li>Interfaced with Parabit's REST API for authentication</li>
+                    <li>Utilized pub/sub on backend for handling real-time events using RabbitMQ</li>
+                    <li>Redefined app's interface for a better user experience</li>
+                </ul>
+            </details>
+            <details open>
+                <summary><a href="https://shop.hellowynd.com" target="_blank">Wynd Technologies • Redwood City, CA</a>, iOS Developer
+                    <time>2018 - 2019</time>
+                </summary>
+                <p>The smartest air purifier for your personal space, featured on the App Store.</p>
+                <br>
+                <a href="https://apple.co/2ML5bSn">Wynd app (https://apple.co/2ML5bSn)</a>
+                <br>
+                <a href="https://apple.co/2BfL5eJ">Air Bubbles app (https://apple.co/2BfL5eJ)</a>
+                </p>
+                <ul>
+                    <li>Used CoreBluetooth for interacting with firmware</li>
+                    <li>Designed user interfaces using XIBs/Storyboards/Programmatic</li>
+                    <li>Sketch/Zeplin experience, UI experience</li>
+                    <li>Worked with Mapbox, Google Maps, and MapKit for displaying annotations &amp; polylines</li>
+                    <li>Used Alamofire for networking, interfaced with our REST API</li>
                 </ul>
             </details>
             <details open>
@@ -89,17 +96,19 @@
                     <time>2016 - 2017</time>
                 </summary>
                 <p>goTenna is a Bluetooth LE-enabled hardware device that pairs with an iOS or Android device allowing users to send text/location messages over an encrypted RF network on a 1-watt UHF radio.</p>
+                <br>
+                <a href="https://apple.co/2G0t9IM">goTenna app (https://apple.co/2G0t9IM)</a>
+                <br>
+                <a href="https://apple.co/2S1MWhn">goTenna Pro app (https://apple.co/2S1MWhn)</a>
                 <ul>
                     <li>Maintained an internal and consumer SDK that uses CoreBluetooth to interface with the goTenna device.</li>
                     <li>Refactored internal source code, updated documentation, and resolved issues reported by users on GitHub.</li>
                     <li>Worked closely with the firmware, UI, and QA teams</li>
-                    <li>Used CoreData and MagicalRecord for handling data throughout the application.
-                    </li>
+                    <li>Used CoreData and MagicalRecord for handling data throughout the application.</li>
                     <li>Implemented Mapbox and Galileo maps to render received locations/pins on a map view.</li>
                     <li>Used Cocoapods to integrate third-party libraries for ease.</li>
                     <li>Used PivotalTracker, Leankit, and Bugzilla to manage features, progress, and bug filings from the QA team.</li>
                 </ul>
-
             </details>
             <details open>
                 <summary><a href="http://www.mcrobertssecuritytechnologies.com/" target="_blank">McRoberts Security Technologies • Freehold, NJ</a>, Software Developer
@@ -112,7 +121,6 @@
                     <li>Designed, demoed, and presented new software both for the company and its clients</li>
                     <li>Tested company software for bugs and filed bug reports</li>
                 </ul>
-
             </details>
         </section>
         <section class="projects">
@@ -125,7 +133,6 @@
                 <ul>
                     <li>Building native app for Bolt&#39;s web interface that displays practice tests and charts</li>
                 </ul>
-
             </details>
             <details open>
                 <summary>Walkmore, iOS Developer
@@ -134,12 +141,11 @@
                 <p>Promoting mental health &amp; fitness by making walking more interesting. Select waypoints to pass on your walk, and we&#39;ll create a route.</p>
                 <ul>
                     <li><a href="https://github.com/learn-co-students/ios-0616-
-team-whale" target="_blank">Project source</a></li>
+                            team-whale" target="_blank">Project source</a></li>
                     <li>Worked with Firebase to handle user authentication and storage</li>
                     <li>Used Mapbox to geocode locations, draw polylines, and generate routes</li>
                     <li>Wrote the first version of the app in Swift. </li>
                 </ul>
-
             </details>
             <details open>
                 <summary>Dormsnap, iOS Developer
@@ -152,7 +158,6 @@ team-whale" target="_blank">Project source</a></li>
                     <li>Wrote the first version of the app in Objective-C</li>
                     <li>Used AFNetworking and Amazon S3 to hook the app with our database.</li>
                 </ul>
-
             </details>
             <details open>
                 <summary>Quo, iOS Developer
@@ -164,29 +169,21 @@ team-whale" target="_blank">Project source</a></li>
                     <li>Wrapped PHP REST API to integrate with the app</li>
                     <li>Winner of spring CodeDay 2013</li>
                 </ul>
-
             </details>
         </section>
         <section class="skills">
             <h2>Skills</h2>
-            <ul>
-                <li>Objective-C</li>
-                <li>Swift 4 (in progress)</li>
-                <li>Git/SVN</li>
-                <li>Python experience</li>
-                <li>Java experience</li>
-                <li>HTML, CSS experience</li>
-            </ul>
+            <li>Objective-C</li>
+            <li>Swift</li>
+            <li>Git/SVN</li>
+            <li>Python, Java, C#, HTML/CSS/JS experience</li>
         </section>
         <section class="experiences">
             <h2>Experiences</h2>
-            <ul>
-                <li>Received scholarship to Apple&#39;s WWDC &#39;15</li>
-                <li>Best app award at winter CodeDay 2013 (Codefriend)</li>
-                <li>Best app award at spring CodeDay 2014 (<a href="https://github.com/taptics" target="_blank">Quo</a>)</li>
-            </ul>
+            <li>Received scholarship to Apple&#39;s WWDC &#39;12</li>
+            <li>Best app award at winter CodeDay 2013 (Codefriend)</li>
+            <li>Best app award at spring CodeDay 2014 (<a href="https://github.com/taptics" target="_blank">Quo</a>)</li>
         </section>
-
     </main>
 </body>
 

@@ -1,13 +1,22 @@
+# Site settings
 title: Ryan Cohen
-url: "http://ryans.exposed"
-baseurl: "/"
+description: >
+    Ryan Cohen
+author: Ryan Cohen
+email: notryancohen@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://notryancohen.com" # SSL
+twitter_username: notryancohen
+github_username:  imryan
+disqus_shortname: YourDisqusShortname
 
+# Build settings
+include: [_pages]
 markdown: kramdown
-
-tracking_id: #
-
+permalink: /:year/:month/:title
 sass:
     style: compressed
-    sass_dir: _sass
 
-theme: jekyll-theme-minimal
+gems:
+  - jemoji
+  - jekyll-sitemap
