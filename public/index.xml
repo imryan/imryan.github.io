@@ -11,7 +11,7 @@
       <title>New beginnings</title>
       <link>https://ryan.place/blog/2020-11-07/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      
+
       <guid>https://ryan.place/blog/2020-11-07/</guid>
       <description>Welcome to my new site, where I hope I post things.
 // A bad man guard let _ = content else { print(&amp;#34;I am a failure.&amp;#34;) return // To life } // A good man print(&amp;#34;Here you are: \(content).&amp;#34;) </description>
@@ -21,11 +21,11 @@
       <title>Projects</title>
       <link>https://ryan.place/projects/</link>
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
-      
+
       <guid>https://ryan.place/projects/</guid>
       <description>Projects Polymapper A simple tool to generate coordinate arrays from polylines. You can either paste coords or choose an area on the map.
  Website  </description>
     </item>
-    
+
   </channel>
 </rss>
