@@ -64,6 +64,12 @@ weight = 4
     name = "github"
     link = "https://github.com/imryan"
   [[params.social]]
+    name = "twitter"
+    link = "https://twitter.com/notryancohen"
+  [[params.social]]
+    name = "keybase"
+    link = "https://keybase.io/imryan"
+  [[params.social]]
     name = "linkedin"
     link = "https://www.linkedin.com/in/imryan"
   [[params.social]]
