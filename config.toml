@@ -1,0 +1,71 @@
+# General info.
+baseURL = "https://ryan.place/"
+languageCode = "en-us"
+title = "Ryan Cohen"
+theme = "cactus"
+
+# Main menu which appears below site header.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Blog"
+url = "/blog"
+weight = 2
+
+# [[menu.main]]
+# name = "Tags"
+# url = "/tags"
+# weight = 3
+
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weight = 3
+
+[[menu.main]]
+name = "Resume"
+url = "/resume"
+weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
+[params]
+
+  colortheme = "dark" # dark, light, white, or classic
+  rss = true # generate rss feed. default value is false
+  googleAnalyticsAsync = true # use asynchronous tracking. Synchronous tracking by default
+
+  # Home page settings
+  description = "Hello world, welcome to my place."
+  mainSection = "blog" # your main section
+  showAllPostsOnHomePage = false # default
+  postsOnHomePage = 5 # this option will be ignored if showAllPostsOnHomePage is set to true
+  tagsOverview = true # show tags overview by default.
+  showProjectsList = true # show projects list by default (if projects data file exists).
+  projectsUrl = "https://github.com/gohugoio" # title link for projects list
+
+  # https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference
+  dateFormat = "01-02-2006"
+
+  # Post page settings
+  show_updated = false
+
+  [params.comments]
+    enabled = false
+    engine = "disqus"
+  [[params.social]]
+    name = "github"
+    link = "https://github.com/imryan"
+  [[params.social]]
+    name = "linkedin"
+    link = "https://www.linkedin.com/in/imryan"
+  [[params.social]]
+    name = "email"
+    link = "notryancohen@gmail.com"
