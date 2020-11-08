@@ -5,17 +5,17 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
-# Build the project.
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+# Clear public directory
+rm -rf public
 
-# Go To Public folder
-cd public
+# Build the project.
+hugo -t cactus
 
 # Add changes to git.
 git add .
 
 # Commit changes.
-msg="rebuilding site $(date)"
+msg="Rebuilding site $(date)"
 if [ -n "$*" ]; then
 	msg="$*"
 fi
