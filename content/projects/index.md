@@ -13,6 +13,9 @@ A simple web-based tool to generate coordinate arrays from polylines. You can ei
 ## [SixthBoro](https://sixthboro.app/) Ⓜ️
 The iOS application that better helps display PATH train times in a fast and feature-packed way. Built with my friend [Avi](https://avijeets.com).
 
+## [Walkmore](https://github.com/learn-co-students/ios-0616-team-whale) 🚶‍♂️
+This project is aimed at helping users to be more active. Walkmore will help a user plan a day trip. Walkmore helps its users create a walking path. The path a user take will ultimately get the user from point A to point B, but it will take the user by historic landmarks (of the user's choosing) that are along the way. Built at Flatiron School in 2016.
+
 ## [Bolt Learning](https://www.crunchbase.com/organization/bolt-learning-inc) ⚡
 Worked on an iOS client along with [Jack](https://twitter.com/defuria) and [Phil](https://twitter.com/fishbein). Bolt leverages innovative adaptive learning algorithms to provide students with a smarter way to prepare for the SAT®.
 
