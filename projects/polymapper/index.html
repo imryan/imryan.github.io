@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Polymapper</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <body onload="initialize()">
+    <!-- <h3>Drag or re-shape for coordinates to display below (<a href="https://github.com/jeremy-hawes/google-maps-coordinates-polygon-tool">Github</a>)</h3>
+    <h3><a href="http://codepen.io/jhawes/blog/creating-a-real-estate-polygon-tool">See blog post</a></h3> -->
+    <div id="map-canvas"></div>
+    <div class="title"><span>Paste in a list of coordinates in <code>lat,lon</code> format.</span></div>
+    <textarea id="input"></textarea>
+    <textarea id="info" readonly></textarea>
+    <select id="syntax-selector" onchange="dropdownChanged()">
+      <option value="ios">CLLocationCoordinate2D (Obj-C)</option>
+      <option value="android">Location (Android)</option>
+      <option value="python">Python</option>
+    </select>
+    <button id="generate-button" onclick="generate()">Generate</button>
+  </body>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBboxOEXn4rqMb25nWZwOJC4IbYNSUuxD4&libraries=drawing"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

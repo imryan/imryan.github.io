@@ -1,0 +1,67 @@
+body {
+  background: #fff;
+}
+
+h3 {
+  margin: 4px 0;
+  padding: 5px 0;
+  font-family: arial, sans-serif;
+  width: 100%;
+  color: #fff;
+}
+
+a {
+  font-family: arial, sans-serif;
+  color: #00B2EE;
+  text-decoration: none;
+}
+a:hover {
+  color: #55d4ff;
+}
+
+code {
+  background-color: #EEEEEE;
+}
+
+#map-canvas {
+  width: auto;
+  height: 600px;
+}
+.title, .output {
+  color: #000;
+  margin-bottom: 5px;
+  font-family: arial, sans-serif;
+}
+
+#generate-button {
+  float: left;
+  margin-left: 20px;
+  padding: 5px 10px;
+  position: absolute;
+
+  background-color: white;
+  color: black;
+  outline: none;
+}
+
+.syntax-selector {
+  border-color: grey;
+}
+
+#info, #input {
+  height: 140px;
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  border: solid 2px #eee;
+  resize: none;
+  outline: none;
+  font-family: courier;
+  color: #222;
+}
+
+#info, #input, .title, .output {
+  font-size: 12px;
+  padding-top: 10px;
+  width: 400px;
+}
