@@ -23,9 +23,8 @@
       <pubDate>Sat, 07 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ryan.place/projects/</guid>
-      <description>Projects Polymapper 📍 A simple web-based tool to generate coordinate arrays from polylines. You can either paste coords or choose an area on the map.
-SixthBoro Ⓜ️ The iOS application that better helps display PATH train times in a fast and feature-packed way. Built with my friend Avi.
-Bolt Learning ⚡ Worked on an iOS client along with Jack and Phil. Bolt leverages innovative adaptive learning algorithms to provide students with a smarter way to prepare for the SAT®.</description>
+      <description>Projects SixthBoro The iOS application that better helps display PATH train times in a fast and feature-packed way. Built with my friend Avi.
+Polymapper A simple tool to generate coordinate arrays from polylines. You can either paste coords or choose an area on the map.</description>
     </item>
     
     <item>
