@@ -21,6 +21,9 @@ Worked on an iOS client along with [Jack](https://twitter.com/defuria) and [Phil
 
 # Open Source
 
+## [CurrencyLayer CLI tool](https://github.com/imryan/CurrencyLayer) 💵
+Implementation of the CurrencyLayer API command-line tool in Swift. [Check them out](https://currencylayer.com/)
+
 ## [Brocade](https://github.com/imryan/Brocade) 📦
 Swift library for the free and open product database.
 
